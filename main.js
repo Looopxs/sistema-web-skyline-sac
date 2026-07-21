@@ -1007,18 +1007,6 @@ function createProductCardHTML(product, index) {
   const colorsHtml = `<div style="width:12px; height:12px; border-radius:50%; background-color:${product.colorHex}; border:1px solid rgba(0,0,0,0.1);" title="${product.colorName}"></div>`;
   const pricePrefix = product.category === 'Polos Personalizados' ? 'Desde ' : '';
 
-  let badgeHtml = '';
-
-  if (product.category === 'Polos de Cuello') {
-    badgeHtml = `<div style="font-size:0.75rem; color:var(--text-light); font-style:italic; margin-bottom:0.3rem; font-family:'Inter', sans-serif;">Bordado minimalista 'S'</div>`;
-  } else if (product.category === 'Polos Clásicos') {
-    if (product.description.includes('Sky')) {
-      badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Sky (Centro)</div>`;
-    } else if (product.description.includes('Kyle')) {
-      badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>`;
-    }
-  }
-
   card.innerHTML = `
     <div class="product-image-container" style="position:relative; background-color:#F8F8F8; overflow:hidden;">
       <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy" style="${product.cssFilter ? 'filter: ' + product.cssFilter + ';' : ''}">
@@ -1029,7 +1017,6 @@ function createProductCardHTML(product, index) {
     <div class="product-info">
       <div class="product-brand">${product.brand}</div>
       <div style="color:var(--accent-color); font-size:0.65rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:0.5rem; font-family:'Inter', sans-serif;">100% Algodón Pima</div>
-      ${badgeHtml}
       <h3 class="product-name">${product.name}</h3>
       <div class="product-price">
         ${pricePrefix}S/. ${product.price.toFixed(2)} 
