@@ -701,7 +701,7 @@ const products = [
     "colorName": "rojo",
     "colorHex": "#8B0000",
     "featured": false,
-    "cssFilter": "sepia(1) hue-rotate(-50deg) saturate(5)"
+    "cssFilter": "hue-rotate(-195deg) saturate(2)"
   },
   {
     "id": "SKU-038",
@@ -720,7 +720,7 @@ const products = [
     "colorName": "azul",
     "colorHex": "#001F3F",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(30deg) saturate(1.5)"
   },
   {
     "id": "SKU-039",
@@ -739,7 +739,7 @@ const products = [
     "colorName": "verde",
     "colorHex": "#228B22",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(-75deg) saturate(1.5)"
   },
   {
     "id": "SKU-040",
@@ -758,7 +758,7 @@ const products = [
     "colorName": "amarillo",
     "colorHex": "#FFD700",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
   },
   {
     "id": "SKU-041",
@@ -777,7 +777,7 @@ const products = [
     "colorName": "morado",
     "colorHex": "#4B0082",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(75deg) saturate(1.5)"
   },
   {
     "id": "SKU-042",
@@ -796,7 +796,7 @@ const products = [
     "colorName": "naranja",
     "colorHex": "#FF8C00",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(-165deg) saturate(2)"
   },
   {
     "id": "SKU-043",
@@ -815,7 +815,7 @@ const products = [
     "colorName": "dorado",
     "colorHex": "#D4AF37",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
   },
   {
     "id": "SKU-044",
@@ -834,7 +834,7 @@ const products = [
     "colorName": "plomo",
     "colorHex": "#808080",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "saturate(0) brightness(0.8)"
   },
   {
     "id": "SKU-045",
@@ -853,7 +853,7 @@ const products = [
     "colorName": "azul oscuro",
     "colorHex": "#000033",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(45deg) saturate(1.5) brightness(0.6)"
   },
   {
     "id": "SKU-046",
@@ -872,7 +872,7 @@ const products = [
     "colorName": "rojo oscuro",
     "colorHex": "#4d0000",
     "featured": false,
-    "cssFilter": "sepia(1) hue-rotate(-50deg) saturate(5)"
+    "cssFilter": "hue-rotate(-195deg) saturate(2)"
   },
   {
     "id": "SKU-047",
@@ -891,7 +891,7 @@ const products = [
     "colorName": "negro",
     "colorHex": "#000000",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "brightness(0.2)"
   },
   {
     "id": "SKU-048",
@@ -910,7 +910,7 @@ const products = [
     "colorName": "blanco",
     "colorHex": "#ffffff",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "saturate(0) brightness(1.5)"
   }
 ];
 
@@ -1008,27 +1008,20 @@ function createProductCardHTML(product, index) {
   const pricePrefix = product.category === 'Polos Personalizados' ? 'Desde ' : '';
 
   let badgeHtml = '';
-  let graphicOverlayHtml = '';
 
   if (product.category === 'Polos de Cuello') {
     badgeHtml = `<div style="font-size:0.75rem; color:var(--text-light); font-style:italic; margin-bottom:0.3rem; font-family:'Inter', sans-serif;">Bordado minimalista 'S'</div>`;
-    graphicOverlayHtml = `<div style="position:absolute; top:35%; left:62%; font-family:'Playfair Display', serif; font-size:0.8rem; font-weight:bold; color:#D4AF37; text-shadow:1px 1px 2px rgba(0,0,0,0.3);">S</div>`;
   } else if (product.category === 'Polos Clásicos') {
     if (product.description.includes('Sky')) {
       badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Sky (Centro)</div>`;
     } else if (product.description.includes('Kyle')) {
       badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>`;
     }
-  } else if (product.category === 'Polos Estampados') {
-     graphicOverlayHtml = `<div style="position:absolute; top:40%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:1.3rem; font-weight:900; color:#ffffff; text-shadow: 2px 3px 5px rgba(0,0,0,0.6), 0 0 10px rgba(255,255,255,0.2); letter-spacing:3px; opacity:0.95;">SKYLINE</div>`;
-  } else if (product.category === 'Polos Personalizados') {
-     graphicOverlayHtml = `<div style="position:absolute; top:80%; right:15%; border:1px dashed rgba(255,255,255,0.7); padding:0.2rem 0.4rem; font-size:0.5rem; color:white; font-weight:bold; pointer-events:none;">CUSTOM</div>`;
   }
 
   card.innerHTML = `
     <div class="product-image-container" style="position:relative; background-color:#F8F8F8; overflow:hidden;">
       <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy" style="${product.cssFilter ? 'filter: ' + product.cssFilter + ';' : ''}">
-      ${graphicOverlayHtml}
       <div class="card-overlay">
         <button class="add-to-cart-btn" data-id="${product.id}">Añadir al Carrito</button>
       </div>
