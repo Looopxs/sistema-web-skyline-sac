@@ -336,18 +336,17 @@ h1, h2, h3, .logo, .product-name {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-/* Sticky Images for Scroll Overlap */
+/* Sticky Images for Scroll Overlap (Deck of Cards Effect) */
 .sticky-image-container {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 150px; /* Space out the images so they scroll independently before sticking */
   padding-bottom: 2rem;
 }
 
 .sticky-img {
   position: sticky;
-  top: 100px;
   height: 380px;
   width: 100%;
   background-size: cover;
@@ -362,6 +361,14 @@ h1, h2, h3, .logo, .product-name {
 .sticky-img:hover {
   transform: scale(1.02);
 }
+
+/* Stacking offsets to show the lip of previous cards */
+.sticky-img:nth-child(1) { top: 100px; z-index: 10; }
+.sticky-img:nth-child(2) { top: 115px; z-index: 11; }
+.sticky-img:nth-child(3) { top: 130px; z-index: 12; }
+.sticky-img:nth-child(4) { top: 145px; z-index: 13; }
+.sticky-img:nth-child(5) { top: 160px; z-index: 14; }
+.sticky-img:nth-child(6) { top: 175px; z-index: 15; }
 
 /* Custom Checkboxes */
 .custom-checkbox-container {
