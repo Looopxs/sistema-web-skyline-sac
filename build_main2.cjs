@@ -35,41 +35,26 @@ lines.forEach((line) => {
     };
     const colorHex = hexMap[cName] || '#000000';
 
-    // STRICT CATEGORY MAPPING
+    // PRIORITIZING TRUE COLORS AS REQUESTED
     let img = '/images/polo_blanco.png';
-    let needsTint = false;
 
-    if (category === 'Polos de Cuello') {
-      if (cName.includes('rojo')) img = '/images/polo_cuello_rojo.png';
-      else if (cName.includes('azul') || cName.includes('negro')) img = '/images/polo_cuello_azul.png';
-      else { 
-        img = '/images/polo_cuello_blanco.png'; 
-        if (cName !== 'blanco') needsTint = true;
-      }
-    } else if (category === 'Polos Clásicos') {
-      if (cName.includes('rojo')) img = '/images/polo_rojo.png';
-      else if (cName.includes('verde')) img = '/images/polo_verde.png';
-      else if (cName.includes('amarillo') || cName.includes('dorado')) img = '/images/polo_amarillo.png';
-      else if (cName.includes('morado')) img = '/images/polo_morado.png';
-      else if (cName.includes('naranja')) img = '/images/polo_naranja.png';
-      else if (cName.includes('plomo')) img = '/images/polo_gris.png';
-      else if (cName.includes('negro') || cName.includes('azul')) { img = '/images/polo_blanco.png'; needsTint = true; }
-      else { img = '/images/polo_blanco.png'; }
-    } else if (category === 'Polos Estampados') {
-      if (cName.includes('verde') || cName.includes('azul')) img = '/images/polo_estampado_verde.png';
-      else img = '/images/polo_estampado_negro.png';
-      needsTint = false; // hard to tint black/green effectively
-    } else if (category === 'Polos Personalizados') {
-      img = '/images/polo_corte_princesa.png'; // It's white/light blue
-      if (cName !== 'blanco' && cName !== 'celeste') needsTint = true;
-    }
+    if (cName.includes('rojo')) img = category === 'Polos de Cuello' ? '/images/polo_cuello_rojo.png' : '/images/polo_rojo.png';
+    else if (cName.includes('azul') && category === 'Polos de Cuello') img = '/images/polo_cuello_azul.png';
+    else if (cName.includes('azul')) img = '/images/polo_cuello_azul.png'; // we only have collar blue
+    else if (cName.includes('verde')) img = category === 'Polos Estampados' ? '/images/polo_estampado_verde.png' : '/images/polo_verde.png';
+    else if (cName.includes('amarillo') || cName.includes('dorado')) img = '/images/polo_amarillo.png';
+    else if (cName.includes('morado')) img = '/images/polo_morado.png';
+    else if (cName.includes('naranja')) img = '/images/polo_naranja.png';
+    else if (cName.includes('plomo')) img = '/images/polo_gris.png';
+    else if (cName.includes('negro')) img = '/images/polo_estampado_negro.png';
+    else if (cName.includes('blanco')) img = category === 'Polos de Cuello' ? '/images/polo_cuello_blanco.png' : '/images/polo_blanco.png';
+    else img = '/images/polo_corte_princesa.png';
 
     products.push({
       id: sku, name: name, brand: 'Skyline SAC',
       price: price, image: img, category: category, description: description,
       sizes: gender === 'Hombre' ? ['S', 'M', 'L', 'XL'] : ['XS', 'S', 'M', 'L'],
-      colorName: cName, colorHex: colorHex, featured: sku.includes('001') || sku.includes('014') || sku.includes('025'),
-      needsTint: needsTint
+      colorName: cName, colorHex: colorHex, featured: sku.includes('001') || sku.includes('014') || sku.includes('025')
     });
   }
 });
@@ -189,10 +174,6 @@ function createProductCardHTML(product, index) {
   }
 
   let tintHtml = '';
-  if (product.needsTint) {
-    // Uses a radial gradient mask so the tint ONLY applies to the center (the polo) and not the corners of the background!
-    tintHtml = \`<div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color:\${product.colorHex}; mix-blend-mode:multiply; opacity:0.85; pointer-events:none; -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 68%); mask-image: radial-gradient(circle at center, black 40%, transparent 68%);"></div>\`;
-  }
 
   card.innerHTML = \`
     <div class="product-image-container" style="position:relative; background-color:#F8F8F8;">
