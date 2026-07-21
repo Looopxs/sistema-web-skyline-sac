@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catálogo Premium - Polos</title>
+    <title>Catálogo Premium - Skyline SAC</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- Glassmorphism Navbar -->
     <header class="navbar">
       <div class="navbar-container">
-        <a href="#" class="logo">SKYLINE SAC <span class="logo-accent">PREMIUM</span></a>
+        <a href="#" class="logo">SKYLINE <span class="logo-accent">SAC</span></a>
         <nav class="nav-links">
           <a href="#" class="active">Colección Exclusiva</a>
           <a href="#">Básicos</a>
@@ -32,7 +32,7 @@
     <div class="cart-overlay" id="cart-overlay"></div>
     <aside class="cart-sidebar" id="cart-sidebar">
       <div class="cart-header">
-        <h2>Tu Carrito</h2>
+        <h2>Tu Selección</h2>
         <button class="close-cart" id="close-cart">&times;</button>
       </div>
       <div class="cart-items" id="cart-items">
@@ -47,43 +47,81 @@
       </div>
     </aside>
 
-    <!-- Hero Banner -->
+    <!-- Hero Banner with Parallax -->
     <section class="hero">
+      <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1>Elegancia en cada hilo</h1>
-        <p>Descubre nuestra nueva colección de polos. Diseño superior y máxima comodidad.</p>
+        <h1 class="fade-in-up">Elegancia en cada hilo</h1>
+        <p class="fade-in-up delay-1">Descubre nuestra nueva colección de polos. Diseño superior y máxima comodidad para el hombre y mujer modernos.</p>
+        <button class="hero-btn fade-in-up delay-2">Explorar Colección</button>
+      </div>
+    </section>
+
+    <!-- Featured Products Carousel -->
+    <section class="featured-section">
+      <h2 class="section-title">Destacados</h2>
+      <div class="carousel-container" id="featured-carousel">
+        <!-- Carousel items injected by JS -->
       </div>
     </section>
 
     <!-- Main Content -->
     <main class="catalog-layout">
-      <!-- Sidebar Filters -->
+      <!-- Sidebar Filters with Accordions -->
       <div class="filter-overlay" id="filter-overlay"></div>
       <aside class="sidebar" id="sidebar">
         <div class="sidebar-header">
-          <h2 class="filter-title">Filtros</h2>
+          <h2 class="filter-title">Refinar Búsqueda</h2>
           <button class="close-filter" id="close-filter">&times;</button>
         </div>
         
-        <div class="filter-group">
-          <h3>Categoría</h3>
-          <label><input type="checkbox" value="basico" class="filter-checkbox" data-type="category"> Básicos</label>
-          <label><input type="checkbox" value="estampado" class="filter-checkbox" data-type="category"> Estampados</label>
-          <label><input type="checkbox" value="personalizado" class="filter-checkbox" data-type="category"> Personalizados</label>
-          <label><input type="checkbox" value="bordado" class="filter-checkbox" data-type="category"> Bordados</label>
-        </div>
+        <details class="filter-group accordion" open>
+          <summary><h3>Categoría</h3></summary>
+          <div class="accordion-content">
+            <label class="custom-checkbox-container"> Básicos
+              <input type="checkbox" value="basico" class="filter-checkbox" data-type="category">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Estampados
+              <input type="checkbox" value="estampado" class="filter-checkbox" data-type="category">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Personalizados
+              <input type="checkbox" value="personalizado" class="filter-checkbox" data-type="category">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Bordados
+              <input type="checkbox" value="bordado" class="filter-checkbox" data-type="category">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </details>
 
-        <div class="filter-group">
-          <h3>Modelo</h3>
-          <label><input type="checkbox" value="cuello" class="filter-checkbox" data-type="model"> Con Cuello</label>
-          <label><input type="checkbox" value="sin-cuello" class="filter-checkbox" data-type="model"> Sin Cuello</label>
-          <label><input type="checkbox" value="princesa" class="filter-checkbox" data-type="model"> Corte Princesa</label>
-          <label><input type="checkbox" value="hombre" class="filter-checkbox" data-type="model"> Hombre Clásico</label>
-        </div>
+        <details class="filter-group accordion" open>
+          <summary><h3>Modelo</h3></summary>
+          <div class="accordion-content">
+            <label class="custom-checkbox-container"> Con Cuello
+              <input type="checkbox" value="cuello" class="filter-checkbox" data-type="model">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Sin Cuello
+              <input type="checkbox" value="sin-cuello" class="filter-checkbox" data-type="model">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Corte Princesa
+              <input type="checkbox" value="princesa" class="filter-checkbox" data-type="model">
+              <span class="checkmark"></span>
+            </label>
+            <label class="custom-checkbox-container"> Hombre Clásico
+              <input type="checkbox" value="hombre" class="filter-checkbox" data-type="model">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </details>
 
-        <div class="filter-group">
-          <h3>Talla</h3>
-          <div class="size-grid">
+        <details class="filter-group accordion" open>
+          <summary><h3>Talla</h3></summary>
+          <div class="accordion-content size-grid">
             <button class="size-btn" data-size="XS">XS</button>
             <button class="size-btn" data-size="S">S</button>
             <button class="size-btn" data-size="M">M</button>
@@ -91,11 +129,11 @@
             <button class="size-btn" data-size="XL">XL</button>
             <button class="size-btn" data-size="XXL">XXL</button>
           </div>
-        </div>
+        </details>
 
-        <div class="filter-group">
-          <h3>Color</h3>
-          <div class="color-grid">
+        <details class="filter-group accordion" open>
+          <summary><h3>Color</h3></summary>
+          <div class="accordion-content color-grid">
             <button class="color-btn" data-color="blanco" style="background-color: #ffffff; border: 1px solid #ddd;" title="Blanco"></button>
             <button class="color-btn" data-color="negro" style="background-color: #000000;" title="Negro"></button>
             <button class="color-btn" data-color="azul" style="background-color: #001F3F;" title="Azul Marino"></button>
@@ -107,7 +145,7 @@
             <button class="color-btn" data-color="naranja" style="background-color: #FF8C00;" title="Naranja"></button>
             <button class="color-btn" data-color="morado" style="background-color: #4B0082;" title="Morado"></button>
           </div>
-        </div>
+        </details>
       </aside>
 
       <!-- Product Grid -->
@@ -139,7 +177,7 @@
         <p>Calidad y elegancia que te definen.</p>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 SKYLINE SAC. Catálogo Premium.</p>
+        <p>&copy; 2026 Skyline SAC. Catálogo Premium.</p>
       </div>
     </footer>
 

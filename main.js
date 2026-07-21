@@ -3,92 +3,92 @@ const products = [
   {
     id: 1, name: 'Polo Básico Slim Fit Blanco', brand: 'Skyline SAC Essentials', price: 29.90,
     image: '/images/polo_blanco.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
-    colorName: 'blanco', colorHex: '#ffffff'
+    colorName: 'blanco', colorHex: '#ffffff', featured: false
   },
   {
     id: 2, name: 'Polo Estampado Geométrico Negro', brand: 'Skyline SAC Design', price: 45.90,
     image: '/images/polo_estampado_negro.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
-    colorName: 'negro', colorHex: '#000000'
+    colorName: 'negro', colorHex: '#000000', featured: true
   },
   {
     id: 3, name: 'Polo Piqué Elegante Azul', brand: 'Skyline SAC Premium', price: 69.90,
     image: '/images/polo_cuello_azul.png', categories: ['basico', 'personalizado'], models: ['hombre', 'cuello'], sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    colorName: 'azul', colorHex: '#001F3F'
+    colorName: 'azul', colorHex: '#001F3F', featured: true
   },
   {
     id: 4, name: 'Polo Corte Princesa Celeste', brand: 'Skyline SAC Woman', price: 35.90,
     image: '/images/polo_corte_princesa.png', categories: ['basico'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M', 'L'],
-    colorName: 'celeste', colorHex: '#87CEEB'
+    colorName: 'celeste', colorHex: '#87CEEB', featured: false
   },
   {
     id: 5, name: 'Polo Básico Rojo Pasión', brand: 'Skyline SAC Essentials', price: 32.90,
     image: '/images/polo_rojo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
-    colorName: 'rojo', colorHex: '#8B0000'
+    colorName: 'rojo', colorHex: '#8B0000', featured: false
   },
   {
     id: 6, name: 'Polo Forest Verde Clásico', brand: 'Skyline SAC Nature', price: 39.90,
     image: '/images/polo_verde.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
-    colorName: 'verde', colorHex: '#228B22'
+    colorName: 'verde', colorHex: '#228B22', featured: false
   },
   {
     id: 7, name: 'Polo Verano Amarillo', brand: 'Skyline SAC Active', price: 34.90,
     image: '/images/polo_amarillo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
-    colorName: 'amarillo', colorHex: '#FFD700'
+    colorName: 'amarillo', colorHex: '#FFD700', featured: false
   },
   {
     id: 8, name: 'Polo Urbano Gris', brand: 'Skyline SAC Street', price: 42.90,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
-    colorName: 'gris', colorHex: '#808080'
+    colorName: 'gris', colorHex: '#808080', featured: false
   },
   {
     id: 9, name: 'Polo Sunset Naranja', brand: 'Skyline SAC Active', price: 36.90,
     image: '/images/polo_naranja.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
-    colorName: 'naranja', colorHex: '#FF8C00'
+    colorName: 'naranja', colorHex: '#FF8C00', featured: false
   },
   {
     id: 10, name: 'Polo Royal Morado', brand: 'Skyline SAC Premium', price: 55.90,
     image: '/images/polo_morado.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
-    colorName: 'morado', colorHex: '#4B0082'
+    colorName: 'morado', colorHex: '#4B0082', featured: true
   },
   {
     id: 11, name: 'Polo Personalizado Negro', brand: 'Skyline SAC Custom', price: 49.90,
     image: '/images/polo_estampado_negro.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
-    colorName: 'negro', colorHex: '#000000'
+    colorName: 'negro', colorHex: '#000000', featured: false
   },
   {
     id: 12, name: 'Polo Cuello Piqué Blanco', brand: 'Skyline SAC Premium', price: 65.90,
     image: '/images/polo_cuello_blanco.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
-    colorName: 'blanco', colorHex: '#ffffff'
+    colorName: 'blanco', colorHex: '#ffffff', featured: true
   },
   {
     id: 13, name: 'Polo Estampado Princesa', brand: 'Skyline SAC Woman', price: 45.90,
     image: '/images/polo_corte_princesa.png', categories: ['estampado'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M'],
-    colorName: 'celeste', colorHex: '#87CEEB'
+    colorName: 'celeste', colorHex: '#87CEEB', featured: false
   },
   {
     id: 14, name: 'Polo Casual Gris Melange', brand: 'Skyline SAC Essentials', price: 33.90,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-    colorName: 'gris', colorHex: '#808080'
+    colorName: 'gris', colorHex: '#808080', featured: false
   },
   {
     id: 15, name: 'Polo Cuello Ejecutivo Rojo', brand: 'Skyline SAC Premium', price: 69.90,
     image: '/images/polo_cuello_rojo.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['M', 'L', 'XL'],
-    colorName: 'rojo', colorHex: '#8B0000'
+    colorName: 'rojo', colorHex: '#8B0000', featured: true
   },
   {
     id: 16, name: 'Polo Estampado Urbano Verde', brand: 'Skyline SAC Design', price: 48.90,
     image: '/images/polo_estampado_verde.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
-    colorName: 'verde', colorHex: '#228B22'
+    colorName: 'verde', colorHex: '#228B22', featured: false
   },
   {
     id: 17, name: 'Polo Personalizado Amarillo', brand: 'Skyline SAC Custom', price: 52.90,
     image: '/images/polo_amarillo.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
-    colorName: 'amarillo', colorHex: '#FFD700'
+    colorName: 'amarillo', colorHex: '#FFD700', featured: false
   },
   {
     id: 18, name: 'Polo Bordado Premium', brand: 'Skyline SAC Premium', price: 62.90,
     image: '/images/polo_cuello_azul.png', categories: ['bordado'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
-    colorName: 'azul', colorHex: '#001F3F'
+    colorName: 'azul', colorHex: '#001F3F', featured: true
   }
 ];
 
@@ -105,6 +105,7 @@ let cart = [];
 const grid = document.getElementById('product-grid');
 const count = document.getElementById('product-count');
 const activeFiltersContainer = document.getElementById('active-filters');
+const featuredCarousel = document.getElementById('featured-carousel');
 
 // Cart Elements
 const cartIcon = document.getElementById('cart-icon');
@@ -123,6 +124,7 @@ const closeFilterBtn = document.getElementById('close-filter');
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+  renderFeaturedProducts();
   renderProducts(products);
   setupEventListeners();
   updateCartUI();
@@ -215,15 +217,61 @@ function applyFilters() {
   updateActiveFilterTags();
 }
 
-// Render Products
+// Generate HTML for a product card (reused for grid and carousel)
+function createProductCardHTML(product, index) {
+  const card = document.createElement('article');
+  card.className = 'product-card fade-in';
+  card.style.animationDelay = `${(index % 10) * 0.05}s`;
+  
+  // Color dot
+  const colorsHtml = `
+    <div style="width:12px; height:12px; border-radius:50%; background-color:${product.colorHex}; border:1px solid rgba(0,0,0,0.1);" title="${product.colorName}"></div>
+  `;
+
+  card.innerHTML = `
+    <div class="product-image-container">
+      <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+      <div class="card-overlay">
+        <button class="add-to-cart-btn" data-id="${product.id}">Añadir al Carrito</button>
+      </div>
+    </div>
+    <div class="product-info">
+      <span class="product-brand">${product.brand}</span>
+      <h3 class="product-name">${product.name}</h3>
+      <div class="product-price">S/ ${product.price.toFixed(2)}</div>
+      <div class="product-colors" style="display:flex; justify-content:center; gap:0.5rem; margin-top:0.5rem;">
+        ${colorsHtml}
+      </div>
+    </div>
+  `;
+  
+  // Attach click listener for "Añadir al carrito"
+  const addBtn = card.querySelector('.add-to-cart-btn');
+  addBtn.addEventListener('click', () => addToCart(product.id));
+
+  return card;
+}
+
+// Render Featured Carousel
+function renderFeaturedProducts() {
+  featuredCarousel.innerHTML = '';
+  const featured = products.filter(p => p.featured);
+  
+  featured.forEach((product, index) => {
+    const card = createProductCardHTML(product, index);
+    featuredCarousel.appendChild(card);
+  });
+}
+
+// Render Products Grid
 function renderProducts(productsToRender) {
   grid.innerHTML = '';
   
   if (productsToRender.length === 0) {
     grid.innerHTML = `
-      <div class="no-results fade-in">
-        <h3>No se encontraron polos</h3>
-        <p>Intenta ajustar tus filtros para ver más resultados.</p>
+      <div style="grid-column: 1/-1; text-align:center; padding: 4rem; background:#fff; border-radius:12px;">
+        <h3 style="font-family:'Playfair Display', serif; color:var(--primary-color); font-size:1.5rem; margin-bottom:1rem;">No se encontraron polos</h3>
+        <p style="color:var(--text-light);">Intenta ajustar tus filtros para ver más resultados.</p>
       </div>
     `;
     count.textContent = '0 artículos';
@@ -233,36 +281,7 @@ function renderProducts(productsToRender) {
   count.textContent = `${productsToRender.length} artículo${productsToRender.length !== 1 ? 's' : ''}`;
 
   productsToRender.forEach((product, index) => {
-    const card = document.createElement('article');
-    card.className = 'product-card fade-in';
-    card.style.animationDelay = `${(index % 10) * 0.05}s`;
-    
-    // Show color dot
-    const colorsHtml = `
-      <div class="product-color-dot" style="background-color: ${product.colorHex}" title="${product.colorName}"></div>
-    `;
-
-    card.innerHTML = `
-      <div class="product-image-container">
-        <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
-      </div>
-      <div class="product-info">
-        <span class="product-brand">${product.brand}</span>
-        <h3 class="product-name">${product.name}</h3>
-        <div class="product-price">S/ ${product.price.toFixed(2)}</div>
-        <div class="product-bottom-row">
-          <div class="product-colors">
-            ${colorsHtml}
-          </div>
-          <button class="add-to-cart-btn" data-id="${product.id}">Añadir al carrito</button>
-        </div>
-      </div>
-    `;
-    
-    // Attach click listener for "Añadir al carrito"
-    const addBtn = card.querySelector('.add-to-cart-btn');
-    addBtn.addEventListener('click', () => addToCart(product.id));
-
+    const card = createProductCardHTML(product, index);
     grid.appendChild(card);
   });
 }
@@ -285,23 +304,16 @@ function updateActiveFilterTags() {
 
   allFilters.forEach(filter => {
     const tag = document.createElement('div');
-    tag.className = 'filter-tag';
-    tag.innerHTML = `${filter} <span title="Quitar filtro">×</span>`;
+    tag.style = 'background:var(--white); border:1px solid var(--border-color); padding:0.4rem 1rem; border-radius:20px; font-size:0.8rem; font-weight:600; display:flex; align-items:center; gap:0.5rem; color:var(--primary-color);';
+    tag.innerHTML = `${filter} <span style="cursor:pointer; color:var(--text-light);" title="Quitar filtro">×</span>`;
     activeFiltersContainer.appendChild(tag);
   });
 
   if (allFilters.length > 0) {
     const clearAll = document.createElement('button');
     clearAll.textContent = 'Limpiar todos';
-    clearAll.style.background = 'none';
-    clearAll.style.border = 'none';
-    clearAll.style.color = 'var(--accent-color)';
-    clearAll.style.cursor = 'pointer';
-    clearAll.style.textDecoration = 'underline';
-    clearAll.style.marginLeft = '10px';
-    clearAll.style.fontWeight = '600';
+    clearAll.style = 'background:none; border:none; color:var(--accent-color); text-decoration:underline; cursor:pointer; font-weight:600; font-size:0.85rem; margin-left:10px;';
     clearAll.addEventListener('click', clearFilters);
-    
     activeFiltersContainer.appendChild(clearAll);
   }
 }
@@ -360,14 +372,14 @@ function updateCartUI() {
     html += `
       <div class="cart-item">
         <img src="${item.image}" alt="${item.name}" class="cart-item-img">
-        <div class="cart-item-info">
+        <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:space-between;">
           <div>
             <div class="cart-item-title">${item.name}</div>
-            <div style="font-size: 0.8rem; color: var(--text-light);">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div>
+            <div style="font-size: 0.8rem; color: var(--text-light); font-family:'Inter', sans-serif;">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div>
           </div>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
-            <div class="cart-item-price">S/ ${item.price.toFixed(2)}</div>
-            <span class="cart-item-remove" onclick="window.removeCartItem(${item.cartId})">Quitar</span>
+            <div style="font-weight:700; color:var(--accent-color);">S/ ${item.price.toFixed(2)}</div>
+            <span style="color:#ff3333; font-size:0.8rem; cursor:pointer; text-decoration:underline;" onclick="window.removeCartItem(${item.cartId})">Quitar</span>
           </div>
         </div>
       </div>
