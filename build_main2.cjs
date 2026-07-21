@@ -35,26 +35,67 @@ lines.forEach((line) => {
     };
     const colorHex = hexMap[cName] || '#000000';
 
-    // PRIORITIZING TRUE COLORS AS REQUESTED
     let img = '/images/polo_blanco.png';
+    let cssFilter = '';
 
-    if (cName.includes('rojo')) img = category === 'Polos de Cuello' ? '/images/polo_cuello_rojo.png' : '/images/polo_rojo.png';
-    else if (cName.includes('azul') && category === 'Polos de Cuello') img = '/images/polo_cuello_azul.png';
-    else if (cName.includes('azul')) img = '/images/polo_cuello_azul.png'; // we only have collar blue
-    else if (cName.includes('verde')) img = category === 'Polos Estampados' ? '/images/polo_estampado_verde.png' : '/images/polo_verde.png';
-    else if (cName.includes('amarillo') || cName.includes('dorado')) img = '/images/polo_amarillo.png';
-    else if (cName.includes('morado')) img = '/images/polo_morado.png';
-    else if (cName.includes('naranja')) img = '/images/polo_naranja.png';
-    else if (cName.includes('plomo')) img = '/images/polo_gris.png';
-    else if (cName.includes('negro')) img = '/images/polo_estampado_negro.png';
-    else if (cName.includes('blanco')) img = category === 'Polos de Cuello' ? '/images/polo_cuello_blanco.png' : '/images/polo_blanco.png';
-    else img = '/images/polo_corte_princesa.png';
+    // STRICT CATEGORY MAPPING with HUE-ROTATE to create missing colors!
+    if (category === 'Polos de Cuello') {
+      if (cName.includes('rojo')) {
+        img = '/images/polo_cuello_rojo.png';
+        if (cName.includes('oscuro')) cssFilter = 'brightness(0.7)';
+      } else if (cName.includes('azul') || cName.includes('negro')) {
+        img = '/images/polo_cuello_azul.png';
+        if (cName.includes('oscuro') || cName.includes('negro')) cssFilter = 'brightness(0.5)';
+      } else if (cName.includes('blanco')) {
+        img = '/images/polo_cuello_blanco.png';
+      } else if (cName.includes('verde')) {
+        img = '/images/polo_cuello_rojo.png';
+        cssFilter = 'hue-rotate(130deg) saturate(1.2)';
+      } else if (cName.includes('amarillo') || cName.includes('dorado')) {
+        img = '/images/polo_cuello_rojo.png';
+        cssFilter = 'hue-rotate(65deg) saturate(1.8) brightness(1.2)';
+      } else if (cName.includes('morado')) {
+        img = '/images/polo_cuello_azul.png';
+        cssFilter = 'hue-rotate(50deg) saturate(1.5)';
+      } else if (cName.includes('naranja')) {
+        img = '/images/polo_cuello_rojo.png';
+        cssFilter = 'hue-rotate(35deg) saturate(1.5)';
+      } else if (cName.includes('plomo')) {
+        img = '/images/polo_cuello_blanco.png';
+        cssFilter = 'brightness(0.8)';
+      } else {
+        img = '/images/polo_cuello_blanco.png';
+      }
+    } else if (category === 'Polos Clásicos') {
+      if (cName.includes('rojo')) img = '/images/polo_rojo.png';
+      else if (cName.includes('verde')) img = '/images/polo_verde.png';
+      else if (cName.includes('amarillo') || cName.includes('dorado')) img = '/images/polo_amarillo.png';
+      else if (cName.includes('morado')) img = '/images/polo_morado.png';
+      else if (cName.includes('naranja')) img = '/images/polo_naranja.png';
+      else if (cName.includes('plomo')) img = '/images/polo_gris.png';
+      else if (cName.includes('negro') || cName.includes('azul')) {
+         img = '/images/polo_gris.png';
+         cssFilter = cName.includes('negro') ? 'brightness(0.2)' : 'hue-rotate(200deg) saturate(2) brightness(0.7)';
+      }
+      else { img = '/images/polo_blanco.png'; }
+    } else if (category === 'Polos Estampados') {
+      if (cName.includes('verde') || cName.includes('azul')) {
+         img = '/images/polo_estampado_verde.png';
+         if (cName.includes('azul')) cssFilter = 'hue-rotate(120deg)';
+      } else {
+         img = '/images/polo_estampado_negro.png';
+      }
+    } else if (category === 'Polos Personalizados') {
+      img = '/images/polo_corte_princesa.png';
+      if (cName.includes('rojo')) cssFilter = 'sepia(1) hue-rotate(-50deg) saturate(5)';
+    }
 
     products.push({
       id: sku, name: name, brand: 'Skyline SAC',
       price: price, image: img, category: category, description: description,
       sizes: gender === 'Hombre' ? ['S', 'M', 'L', 'XL'] : ['XS', 'S', 'M', 'L'],
-      colorName: cName, colorHex: colorHex, featured: sku.includes('001') || sku.includes('014') || sku.includes('025')
+      colorName: cName, colorHex: colorHex, featured: sku.includes('001') || sku.includes('014') || sku.includes('025'),
+      cssFilter: cssFilter
     });
   }
 });
@@ -173,12 +214,9 @@ function createProductCardHTML(product, index) {
      graphicOverlayHtml = \`<div style="position:absolute; top:80%; right:15%; border:1px dashed rgba(255,255,255,0.7); padding:0.2rem 0.4rem; font-size:0.5rem; color:white; font-weight:bold; pointer-events:none;">CUSTOM</div>\`;
   }
 
-  let tintHtml = '';
-
   card.innerHTML = \`
-    <div class="product-image-container" style="position:relative; background-color:#F8F8F8;">
-      <img src="\${product.image}" alt="\${product.name}" class="product-image" loading="lazy">
-      \${tintHtml}
+    <div class="product-image-container" style="position:relative; background-color:#F8F8F8; overflow:hidden;">
+      <img src="\${product.image}" alt="\${product.name}" class="product-image" loading="lazy" style="\${product.cssFilter ? 'filter: ' + product.cssFilter + ';' : ''}">
       \${graphicOverlayHtml}
       <div class="card-overlay">
         <button class="add-to-cart-btn" data-id="\${product.id}">Añadir al Carrito</button>
