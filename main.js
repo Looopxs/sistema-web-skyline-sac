@@ -5,7 +5,7 @@ const products = [
     "name": "Polo Cuello Premium Rojo",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -41,7 +41,7 @@ const products = [
     "name": "Polo Cuello Premium Verde",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_verde.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -59,7 +59,7 @@ const products = [
     "name": "Polo Cuello Premium Amarillo",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -77,7 +77,7 @@ const products = [
     "name": "Polo Cuello Premium Morado",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_morado.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -95,7 +95,7 @@ const products = [
     "name": "Polo Cuello Premium Naranja",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_naranja.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -113,7 +113,7 @@ const products = [
     "name": "Polo Cuello Premium Dorado",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -124,14 +124,14 @@ const products = [
     ],
     "colorName": "dorado",
     "colorHex": "#D4AF37",
-    "featured": true
+    "featured": false
   },
   {
     "id": "SKU-008",
     "name": "Polo Cuello Premium Plomo",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_gris.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -167,7 +167,7 @@ const products = [
     "name": "Polo Cuello Premium Rojo Oscuro",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -185,7 +185,7 @@ const products = [
     "name": "Polo Cuello Premium Negro",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -203,7 +203,7 @@ const products = [
     "name": "Polo Cuello Premium Blanco",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_blanco.png",
+    "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -239,7 +239,7 @@ const products = [
     "name": "Polo Clásico Básico Azul",
     "brand": "Skyline SAC Clásicos",
     "price": 30,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos Clásicos",
     "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
     "sizes": [
@@ -365,7 +365,7 @@ const products = [
     "name": "Polo Clásico Básico Azul Oscuro",
     "brand": "Skyline SAC Clásicos",
     "price": 30,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos Clásicos",
     "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
     "sizes": [
@@ -437,7 +437,7 @@ const products = [
     "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
@@ -455,7 +455,7 @@ const products = [
     "name": "Polo Estampado Líneas Geométricas",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
     "sizes": [
@@ -473,7 +473,7 @@ const products = [
     "name": "Polo Estampado Minimalismo",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_verde.png",
+    "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
     "sizes": [
@@ -491,7 +491,7 @@ const products = [
     "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
@@ -509,7 +509,7 @@ const products = [
     "name": "Polo Estampado Ilustración Abstracta",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_morado.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
     "sizes": [
@@ -527,7 +527,7 @@ const products = [
     "name": "Polo Estampado Patrón Vintage",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_naranja.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
     "sizes": [
@@ -545,7 +545,7 @@ const products = [
     "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
@@ -556,14 +556,14 @@ const products = [
     ],
     "colorName": "dorado",
     "colorHex": "#D4AF37",
-    "featured": true
+    "featured": false
   },
   {
     "id": "SKU-032",
     "name": "Polo Estampado Líneas Geométricas",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_gris.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
     "sizes": [
@@ -581,7 +581,7 @@ const products = [
     "name": "Polo Estampado Minimalismo",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
     "sizes": [
@@ -599,7 +599,7 @@ const products = [
     "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
@@ -635,7 +635,7 @@ const products = [
     "name": "Polo Estampado Patrón Vintage",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_blanco.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
     "sizes": [
@@ -653,7 +653,7 @@ const products = [
     "name": "Polo Custom Edition Rojo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
     "sizes": [
@@ -671,7 +671,7 @@ const products = [
     "name": "Polo Custom Edition Azul",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
     "sizes": [
@@ -689,7 +689,7 @@ const products = [
     "name": "Polo Custom Edition Verde",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_verde.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
     "sizes": [
@@ -707,7 +707,7 @@ const products = [
     "name": "Polo Custom Edition Amarillo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
     "sizes": [
@@ -718,14 +718,14 @@ const products = [
     ],
     "colorName": "amarillo",
     "colorHex": "#FFD700",
-    "featured": true
+    "featured": false
   },
   {
     "id": "SKU-041",
     "name": "Polo Custom Edition Morado",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_morado.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Diseño asimétrico con logo en la manga. Ideal para pedidos únicos.",
     "sizes": [
@@ -743,7 +743,7 @@ const products = [
     "name": "Polo Custom Edition Naranja",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_naranja.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Edición especial con tipografía dorada personalizada. Ideal para pedidos únicos.",
     "sizes": [
@@ -761,7 +761,7 @@ const products = [
     "name": "Polo Custom Edition Dorado",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_amarillo.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
     "sizes": [
@@ -779,7 +779,7 @@ const products = [
     "name": "Polo Custom Edition Plomo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_gris.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
     "sizes": [
@@ -797,7 +797,7 @@ const products = [
     "name": "Polo Custom Edition Azul Oscuro",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
     "sizes": [
@@ -815,7 +815,7 @@ const products = [
     "name": "Polo Custom Edition Rojo Oscuro",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
     "sizes": [
@@ -851,7 +851,7 @@ const products = [
     "name": "Polo Custom Edition Blanco",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_blanco.png",
+    "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Edición especial con tipografía dorada personalizada. Ideal para pedidos únicos.",
     "sizes": [
@@ -867,12 +867,7 @@ const products = [
 ];
 
 // State
-let activeFilters = {
-  categories: [],
-  models: [],
-  sizes: [],
-  colors: []
-};
+let activeFilters = { categories: [], sizes: [], colors: [] };
 let cart = [];
 let currentFilteredProducts = [];
 let visibleCount = 12;
@@ -883,7 +878,6 @@ const count = document.getElementById('product-count');
 const activeFiltersContainer = document.getElementById('active-filters');
 const featuredCarousel = document.getElementById('featured-carousel');
 
-// Cart Elements
 const cartIcon = document.getElementById('cart-icon');
 const cartSidebar = document.getElementById('cart-sidebar');
 const cartOverlay = document.getElementById('cart-overlay');
@@ -892,13 +886,11 @@ const cartItemsContainer = document.getElementById('cart-items');
 const cartBadge = document.getElementById('cart-badge');
 const cartTotalPrice = document.getElementById('cart-total-price');
 
-// Filter Elements (Mobile)
 const mobileFilterBtn = document.getElementById('mobile-filter-btn');
 const sidebar = document.getElementById('sidebar');
 const filterOverlay = document.getElementById('filter-overlay');
 const closeFilterBtn = document.getElementById('close-filter');
 
-// Initialize
 document.addEventListener('DOMContentLoaded', () => {
   renderFeaturedProducts();
   currentFilteredProducts = [...products];
@@ -908,43 +900,32 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCartUI();
 });
 
-// Setup Listeners
 function setupEventListeners() {
-  document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
-    checkbox.addEventListener('change', (e) => {
-      const type = e.target.dataset.type === 'category' ? 'categories' : 'models';
-      const value = e.target.value;
-      if (e.target.checked) {
-        if (!activeFilters[type].includes(value)) activeFilters[type].push(value);
-      } else {
-        activeFilters[type] = activeFilters[type].filter(v => v !== value);
-      }
+  document.querySelectorAll('.filter-checkbox').forEach(cb => {
+    cb.addEventListener('change', (e) => {
+      const val = e.target.value;
+      if (e.target.checked) { if (!activeFilters.categories.includes(val)) activeFilters.categories.push(val); }
+      else { activeFilters.categories = activeFilters.categories.filter(v => v !== val); }
       applyFilters();
     });
   });
 
   document.querySelectorAll('.size-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const value = e.target.dataset.size;
+      const val = e.target.dataset.size;
       e.target.classList.toggle('selected');
-      if (e.target.classList.contains('selected')) {
-        if (!activeFilters.sizes.includes(value)) activeFilters.sizes.push(value);
-      } else {
-        activeFilters.sizes = activeFilters.sizes.filter(v => v !== value);
-      }
+      if (e.target.classList.contains('selected')) { if (!activeFilters.sizes.includes(val)) activeFilters.sizes.push(val); }
+      else { activeFilters.sizes = activeFilters.sizes.filter(v => v !== val); }
       applyFilters();
     });
   });
 
   document.querySelectorAll('.color-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const value = e.target.dataset.color;
+      const val = e.target.dataset.color;
       e.target.classList.toggle('selected');
-      if (e.target.classList.contains('selected')) {
-        if (!activeFilters.colors.includes(value)) activeFilters.colors.push(value);
-      } else {
-        activeFilters.colors = activeFilters.colors.filter(v => v !== value);
-      }
+      if (e.target.classList.contains('selected')) { if (!activeFilters.colors.includes(val)) activeFilters.colors.push(val); }
+      else { activeFilters.colors = activeFilters.colors.filter(v => v !== val); }
       applyFilters();
     });
   });
@@ -957,51 +938,65 @@ function setupEventListeners() {
   filterOverlay.addEventListener('click', toggleFilterMenu);
 }
 
-// Filter Logic
 function applyFilters() {
-  currentFilteredProducts = products.filter(product => {
-    const categoryMatch = activeFilters.categories.length === 0 || activeFilters.categories.some(c => product.category === c);
-    // Models filter is not defined in the new excel, so we ignore it or adapt if needed
-    // The previous structure had 'models' array. For now we skip or leave it empty if not in data
-    const sizeMatch = activeFilters.sizes.length === 0 || activeFilters.sizes.some(s => product.sizes.includes(s));
-    const colorMatch = activeFilters.colors.length === 0 || activeFilters.colors.includes(product.colorName);
-    return categoryMatch && sizeMatch && colorMatch;
+  currentFilteredProducts = products.filter(p => {
+    const cat = activeFilters.categories.length === 0 || activeFilters.categories.includes(p.category);
+    const siz = activeFilters.sizes.length === 0 || activeFilters.sizes.some(s => p.sizes.includes(s));
+    const col = activeFilters.colors.length === 0 || activeFilters.colors.includes(p.colorName);
+    return cat && siz && col;
   });
-
-  visibleCount = 12; // reset pagination
+  visibleCount = 12;
   updateProductCount(currentFilteredProducts.length);
   renderProductsGrid();
   updateActiveFilterTags();
 }
 
-function updateProductCount(countNum) {
-  count.textContent = `${countNum} artículo${countNum !== 1 ? 's' : ''}`;
+function updateProductCount(num) {
+  count.textContent = `${num} artículo${num !== 1 ? 's' : ''}`;
 }
 
-// Generate HTML for a product card
 function createProductCardHTML(product, index) {
   const card = document.createElement('article');
   card.className = 'product-card fade-in';
   card.style.animationDelay = `${(index % 12) * 0.05}s`;
   
   const colorsHtml = `<div style="width:12px; height:12px; border-radius:50%; background-color:${product.colorHex}; border:1px solid rgba(0,0,0,0.1);" title="${product.colorName}"></div>`;
-
   const pricePrefix = product.category === 'Polos Personalizados' ? 'Desde ' : '';
 
   let badgeHtml = '';
+  let graphicOverlayHtml = '';
+
+  // Dynamic visual overlays based on exact Excel descriptions!
   if (product.category === 'Polos de Cuello') {
     badgeHtml = `<div style="font-size:0.75rem; color:var(--text-light); font-style:italic; margin-bottom:0.3rem; font-family:'Inter', sans-serif;">Bordado minimalista 'S'</div>`;
+    // Tiny golden 'S' on the left chest
+    graphicOverlayHtml = `<div style="position:absolute; top:35%; left:62%; font-family:'Playfair Display', serif; font-size:0.8rem; font-weight:bold; color:#D4AF37; text-shadow:1px 1px 2px rgba(0,0,0,0.3);">S</div>`;
   } else if (product.category === 'Polos Clásicos') {
     if (product.description.includes('Sky')) {
       badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Sky (Centro)</div>`;
+      graphicOverlayHtml = `<div style="position:absolute; top:45%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:1.2rem; font-weight:800; color:rgba(255,255,255,0.7); mix-blend-mode:overlay; letter-spacing:3px;">SKY</div>`;
     } else if (product.description.includes('Kyle')) {
       badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>`;
+      graphicOverlayHtml = `<div style="position:absolute; top:20%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:0.9rem; font-weight:800; color:rgba(255,255,255,0.6); mix-blend-mode:overlay; letter-spacing:2px;">KYLE</div>`;
     }
+  } else if (product.category === 'Polos Estampados') {
+     graphicOverlayHtml = `<svg style="position:absolute; top:45%; left:50%; transform:translate(-50%, -50%); width:60px; height:60px; opacity:0.6; mix-blend-mode:overlay;" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="4"><circle cx="50" cy="50" r="40"/><path d="M 30 50 L 70 50 M 50 30 L 50 70"/></svg>`;
+  } else if (product.category === 'Polos Personalizados') {
+     graphicOverlayHtml = `<div style="position:absolute; top:80%; right:15%; border:2px dashed rgba(255,255,255,0.5); padding:0.2rem 0.5rem; font-size:0.6rem; color:white; font-weight:bold;">CUSTOM</div>`;
+  }
+
+  // Multiply filter for missing colors to tint white images
+  // Let's only apply tint if we use polo_cuello_blanco.png for a non-white color
+  let tintHtml = '';
+  if (product.image.includes('blanco') && product.colorName !== 'blanco') {
+     tintHtml = `<div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color:${product.colorHex}; mix-blend-mode:multiply; opacity:0.85; pointer-events:none;"></div>`;
   }
 
   card.innerHTML = `
-    <div class="product-image-container">
+    <div class="product-image-container" style="position:relative;">
       <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
+      ${tintHtml}
+      ${graphicOverlayHtml}
       <div class="card-overlay">
         <button class="add-to-cart-btn" data-id="${product.id}">Añadir al Carrito</button>
       </div>
@@ -1021,76 +1016,56 @@ function createProductCardHTML(product, index) {
     </div>
   `;
   
-  const addBtn = card.querySelector('.add-to-cart-btn');
-  addBtn.addEventListener('click', () => addToCart(product.id));
-
+  card.querySelector('.add-to-cart-btn').addEventListener('click', () => addToCart(product.id));
   return card;
 }
 
-// Render Featured Carousel
 function renderFeaturedProducts() {
   featuredCarousel.innerHTML = '';
-  const featured = products.filter(p => p.featured);
-  featured.forEach((product, index) => {
+  products.filter(p => p.featured).forEach((product, index) => {
     featuredCarousel.appendChild(createProductCardHTML(product, index));
   });
 }
 
-// Render Products Grid (Infinite Scroll)
 function renderProductsGrid() {
   grid.innerHTML = '';
-  
   if (currentFilteredProducts.length === 0) {
-    grid.innerHTML = `
-      <div style="grid-column: 1/-1; text-align:center; padding: 4rem; background:#fff; border-radius:12px;">
+    grid.innerHTML = `<div style="grid-column: 1/-1; text-align:center; padding: 4rem; background:#fff; border-radius:12px;">
         <h3 style="font-family:'Playfair Display', serif; color:var(--primary-color); font-size:1.5rem; margin-bottom:1rem;">No se encontraron polos</h3>
         <p style="color:var(--text-light);">Intenta ajustar tus filtros para ver más resultados.</p>
-      </div>
-    `;
+      </div>`;
     return;
   }
 
-  const toRender = currentFilteredProducts.slice(0, visibleCount);
-  toRender.forEach((product, index) => {
-    grid.appendChild(createProductCardHTML(product, index));
+  currentFilteredProducts.slice(0, visibleCount).forEach((p, i) => {
+    grid.appendChild(createProductCardHTML(p, i));
   });
 
-  // Infinite Scroll Observer
   if (visibleCount < currentFilteredProducts.length) {
-    const observerTarget = document.createElement('div');
-    observerTarget.id = 'scroll-observer';
-    observerTarget.style.height = '20px';
-    observerTarget.style.gridColumn = '1 / -1';
-    grid.appendChild(observerTarget);
-    
+    const obs = document.createElement('div');
+    obs.style.height = '20px';
+    obs.style.gridColumn = '1 / -1';
+    grid.appendChild(obs);
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) {
         observer.disconnect();
         visibleCount += 12;
-        // Optimization: append instead of re-rendering, but for simplicity re-render is fine with 48 items
         renderProductsGrid();
       }
     });
-    observer.observe(observerTarget);
+    observer.observe(obs);
   }
 }
 
-// Render Tags
 function updateActiveFilterTags() {
   activeFiltersContainer.innerHTML = '';
-  const allFilters = [
-    ...activeFilters.categories,
-    ...activeFilters.sizes,
-    ...activeFilters.colors.map(c => c.charAt(0).toUpperCase() + c.slice(1))
-  ];
-
+  const allFilters = [...activeFilters.categories, ...activeFilters.sizes, ...activeFilters.colors.map(c => c.charAt(0).toUpperCase() + c.slice(1))];
   allFilters.forEach(filter => {
     const tag = document.createElement('div');
     tag.style = 'background:var(--white); border:1px solid var(--border-color); padding:0.4rem 1rem; border-radius:20px; font-size:0.8rem; font-weight:600; display:flex; align-items:center; gap:0.5rem; color:var(--primary-color);';
     tag.innerHTML = `${filter} <span style="cursor:pointer; color:var(--text-light);" title="Quitar filtro">×</span>`;
     activeFiltersContainer.appendChild(tag);
   });
-
   if (allFilters.length > 0) {
     const clearAll = document.createElement('button');
     clearAll.textContent = 'Limpiar todos';
@@ -1101,73 +1076,43 @@ function updateActiveFilterTags() {
 }
 
 function clearFilters() {
-  activeFilters = { categories: [], models: [], sizes: [], colors: [] };
+  activeFilters = { categories: [], sizes: [], colors: [] };
   document.querySelectorAll('.filter-checkbox').forEach(cb => cb.checked = false);
   document.querySelectorAll('.size-btn, .color-btn').forEach(btn => btn.classList.remove('selected'));
   applyFilters();
 }
 
-// Shopping Cart Logic
-function toggleCart() {
-  cartSidebar.classList.toggle('open');
-  cartOverlay.classList.toggle('active');
-}
+function toggleCart() { cartSidebar.classList.toggle('open'); cartOverlay.classList.toggle('active'); }
+function toggleFilterMenu() { sidebar.classList.toggle('open'); filterOverlay.classList.toggle('active'); }
 
-function toggleFilterMenu() {
-  sidebar.classList.toggle('open');
-  filterOverlay.classList.toggle('active');
+function addToCart(id) {
+  const p = products.find(x => x.id === id);
+  if (p) { cart.push({ ...p, cartId: Date.now() }); updateCartUI(); if (!cartSidebar.classList.contains('open')) toggleCart(); }
 }
-
-function addToCart(productId) {
-  const product = products.find(p => p.id === productId);
-  if (product) {
-    const cartItem = { ...product, cartId: Date.now() };
-    cart.push(cartItem);
-    updateCartUI();
-    if (!cartSidebar.classList.contains('open')) {
-      toggleCart();
-    }
-  }
-}
-
-function removeFromCart(cartId) {
-  cart = cart.filter(item => item.cartId !== cartId);
-  updateCartUI();
-}
+function removeFromCart(id) { cart = cart.filter(x => x.cartId !== id); updateCartUI(); }
 
 function updateCartUI() {
   cartBadge.textContent = cart.length;
-  
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = '<p style="text-align:center; color:var(--text-light); margin-top:2rem;">Tu carrito está vacío</p>';
     cartTotalPrice.innerHTML = '<span>Total:</span> <span style="text-align:right;">S/. 0.00 <br><span style="font-size:0.85rem; color:var(--text-light); font-weight:400;">$ 0.00</span></span>';
     return;
   }
-
-  let html = '';
-  let total = 0;
-
+  let html = '', total = 0;
   cart.forEach(item => {
     total += item.price;
-    html += `
-      <div class="cart-item">
-        <img src="${item.image}" alt="${item.name}" class="cart-item-img">
-        <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:space-between;">
-          <div>
-            <div class="cart-item-title">${item.name}</div>
-            <div style="font-size: 0.8rem; color: var(--text-light); font-family:'Inter', sans-serif;">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div>
-          </div>
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
-            <div style="font-weight:700; color:var(--accent-color);">S/. ${item.price.toFixed(2)} <span style="font-size:0.8rem; font-weight:400; color:var(--text-light)">| $ ${(item.price / 3.80).toFixed(2)}</span></div>
-            <span style="color:#ff3333; font-size:0.8rem; cursor:pointer; text-decoration:underline;" onclick="window.removeCartItem(${item.cartId})">Quitar</span>
-          </div>
+    html += `<div class="cart-item">
+      <img src="${item.image}" class="cart-item-img" style="mix-blend-mode:multiply;">
+      <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:space-between;">
+        <div><div class="cart-item-title">${item.name}</div><div style="font-size:0.8rem; color:var(--text-light); font-family:'Inter', sans-serif;">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.5rem;">
+          <div style="font-weight:700; color:var(--accent-color);">S/. ${item.price.toFixed(2)}</div>
+          <span style="color:#ff3333; font-size:0.8rem; cursor:pointer; text-decoration:underline;" onclick="window.removeCartItem(${item.cartId})">Quitar</span>
         </div>
       </div>
-    `;
+    </div>`;
   });
-
   cartItemsContainer.innerHTML = html;
   cartTotalPrice.innerHTML = `<span>Total:</span> <span style="text-align:right;">S/. ${total.toFixed(2)}<br><span style="font-size:0.85rem; color:var(--text-light); font-weight:400;">$ ${(total / 3.8).toFixed(2)}</span></span>`;
 }
-
 window.removeCartItem = removeFromCart;
