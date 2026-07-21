@@ -984,17 +984,9 @@ function createProductCardHTML(product, index) {
      graphicOverlayHtml = `<div style="position:absolute; top:80%; right:15%; border:2px dashed rgba(255,255,255,0.5); padding:0.2rem 0.5rem; font-size:0.6rem; color:white; font-weight:bold;">CUSTOM</div>`;
   }
 
-  // Multiply filter for missing colors to tint white images
-  // Let's only apply tint if we use polo_cuello_blanco.png for a non-white color
-  let tintHtml = '';
-  if (product.image.includes('blanco') && product.colorName !== 'blanco') {
-     tintHtml = `<div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color:${product.colorHex}; mix-blend-mode:multiply; opacity:0.85; pointer-events:none;"></div>`;
-  }
-
   card.innerHTML = `
     <div class="product-image-container" style="position:relative;">
       <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
-      ${tintHtml}
       ${graphicOverlayHtml}
       <div class="card-overlay">
         <button class="add-to-cart-btn" data-id="${product.id}">Añadir al Carrito</button>
