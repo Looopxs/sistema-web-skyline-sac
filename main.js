@@ -41,7 +41,7 @@ const products = [
     "name": "Polo Cuello Premium Verde",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_verde.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -59,7 +59,7 @@ const products = [
     "name": "Polo Cuello Premium Amarillo",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -77,7 +77,7 @@ const products = [
     "name": "Polo Cuello Premium Morado",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_morado.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -95,7 +95,7 @@ const products = [
     "name": "Polo Cuello Premium Naranja",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_naranja.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -113,7 +113,7 @@ const products = [
     "name": "Polo Cuello Premium Dorado",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -131,7 +131,7 @@ const products = [
     "name": "Polo Cuello Premium Plomo",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -185,7 +185,7 @@ const products = [
     "name": "Polo Cuello Premium Negro",
     "brand": "Skyline SAC de",
     "price": 85,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_estampado_negro.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -239,7 +239,7 @@ const products = [
     "name": "Polo Clásico Básico Azul",
     "brand": "Skyline SAC Clásicos",
     "price": 30,
-    "image": "/images/polo_gris.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Clásicos",
     "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
     "sizes": [
@@ -365,7 +365,7 @@ const products = [
     "name": "Polo Clásico Básico Azul Oscuro",
     "brand": "Skyline SAC Clásicos",
     "price": 30,
-    "image": "/images/polo_gris.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Clásicos",
     "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
     "sizes": [
@@ -437,7 +437,7 @@ const products = [
     "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_rojo.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
@@ -455,7 +455,7 @@ const products = [
     "name": "Polo Estampado Líneas Geométricas",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_verde.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
     "sizes": [
@@ -491,7 +491,7 @@ const products = [
     "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
@@ -509,7 +509,7 @@ const products = [
     "name": "Polo Estampado Ilustración Abstracta",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_morado.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
     "sizes": [
@@ -527,7 +527,7 @@ const products = [
     "name": "Polo Estampado Patrón Vintage",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_naranja.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
     "sizes": [
@@ -545,7 +545,7 @@ const products = [
     "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
@@ -563,7 +563,7 @@ const products = [
     "name": "Polo Estampado Líneas Geométricas",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
     "sizes": [
@@ -581,7 +581,7 @@ const products = [
     "name": "Polo Estampado Minimalismo",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_verde.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
     "sizes": [
@@ -599,7 +599,7 @@ const products = [
     "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_rojo.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
@@ -635,7 +635,7 @@ const products = [
     "name": "Polo Estampado Patrón Vintage",
     "brand": "Skyline SAC Estampados",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_blanco.png",
     "category": "Polos Estampados",
     "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
     "sizes": [
@@ -653,7 +653,7 @@ const products = [
     "name": "Polo Custom Edition Rojo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_rojo.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
     "sizes": [
@@ -671,7 +671,7 @@ const products = [
     "name": "Polo Custom Edition Azul",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
     "sizes": [
@@ -689,7 +689,7 @@ const products = [
     "name": "Polo Custom Edition Verde",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_verde.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
     "sizes": [
@@ -707,7 +707,7 @@ const products = [
     "name": "Polo Custom Edition Amarillo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
     "sizes": [
@@ -725,7 +725,7 @@ const products = [
     "name": "Polo Custom Edition Morado",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_morado.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Diseño asimétrico con logo en la manga. Ideal para pedidos únicos.",
     "sizes": [
@@ -743,7 +743,7 @@ const products = [
     "name": "Polo Custom Edition Naranja",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_naranja.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Edición especial con tipografía dorada personalizada. Ideal para pedidos únicos.",
     "sizes": [
@@ -761,7 +761,7 @@ const products = [
     "name": "Polo Custom Edition Dorado",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_amarillo.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
     "sizes": [
@@ -779,7 +779,7 @@ const products = [
     "name": "Polo Custom Edition Plomo",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
     "sizes": [
@@ -797,7 +797,7 @@ const products = [
     "name": "Polo Custom Edition Azul Oscuro",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_cuello_azul.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
     "sizes": [
@@ -815,7 +815,7 @@ const products = [
     "name": "Polo Custom Edition Rojo Oscuro",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_rojo.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
     "sizes": [
@@ -851,7 +851,7 @@ const products = [
     "name": "Polo Custom Edition Blanco",
     "brand": "Skyline SAC Personalizados",
     "price": 50,
-    "image": "/images/polo_corte_princesa.png",
+    "image": "/images/polo_blanco.png",
     "category": "Polos Personalizados",
     "description": "Diseño a pedido del cliente: Edición especial con tipografía dorada personalizada. Ideal para pedidos únicos.",
     "sizes": [
@@ -866,18 +866,15 @@ const products = [
   }
 ];
 
-// State
 let activeFilters = { categories: [], sizes: [], colors: [] };
 let cart = [];
 let currentFilteredProducts = [];
 let visibleCount = 12;
 
-// DOM Elements
 const grid = document.getElementById('product-grid');
 const count = document.getElementById('product-count');
 const activeFiltersContainer = document.getElementById('active-filters');
 const featuredCarousel = document.getElementById('featured-carousel');
-
 const cartIcon = document.getElementById('cart-icon');
 const cartSidebar = document.getElementById('cart-sidebar');
 const cartOverlay = document.getElementById('cart-overlay');
@@ -885,7 +882,6 @@ const closeCartBtn = document.getElementById('close-cart');
 const cartItemsContainer = document.getElementById('cart-items');
 const cartBadge = document.getElementById('cart-badge');
 const cartTotalPrice = document.getElementById('cart-total-price');
-
 const mobileFilterBtn = document.getElementById('mobile-filter-btn');
 const sidebar = document.getElementById('sidebar');
 const filterOverlay = document.getElementById('filter-overlay');
@@ -966,10 +962,8 @@ function createProductCardHTML(product, index) {
   let badgeHtml = '';
   let graphicOverlayHtml = '';
 
-  // Dynamic visual overlays based on exact Excel descriptions!
   if (product.category === 'Polos de Cuello') {
     badgeHtml = `<div style="font-size:0.75rem; color:var(--text-light); font-style:italic; margin-bottom:0.3rem; font-family:'Inter', sans-serif;">Bordado minimalista 'S'</div>`;
-    // Tiny golden 'S' on the left chest
     graphicOverlayHtml = `<div style="position:absolute; top:35%; left:62%; font-family:'Playfair Display', serif; font-size:0.8rem; font-weight:bold; color:#D4AF37; text-shadow:1px 1px 2px rgba(0,0,0,0.3);">S</div>`;
   } else if (product.category === 'Polos Clásicos') {
     if (product.description.includes('Sky')) {
@@ -978,9 +972,10 @@ function createProductCardHTML(product, index) {
       badgeHtml = `<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>`;
     }
   } else if (product.category === 'Polos Estampados') {
-     graphicOverlayHtml = `<div style="position:absolute; top:40%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:1.3rem; font-weight:900; color:#ffffff; text-shadow: 2px 3px 5px rgba(0,0,0,0.6), 0 0 10px rgba(255,255,255,0.2); letter-spacing:3px; opacity:0.95;">SKYLINE</div>`;
+     // A smaller, realistic SKYLINE print in the center of the chest
+     graphicOverlayHtml = `<div style="position:absolute; top:42%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:12px; font-weight:900; color:#f8f8f8; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); letter-spacing:2px; opacity:0.9; pointer-events:none;">SKYLINE</div>`;
   } else if (product.category === 'Polos Personalizados') {
-     graphicOverlayHtml = `<div style="position:absolute; top:80%; right:15%; border:2px dashed rgba(255,255,255,0.5); padding:0.2rem 0.5rem; font-size:0.6rem; color:white; font-weight:bold;">CUSTOM</div>`;
+     graphicOverlayHtml = `<div style="position:absolute; top:80%; right:15%; border:1px dashed rgba(255,255,255,0.7); padding:0.2rem 0.4rem; font-size:0.5rem; color:white; font-weight:bold; pointer-events:none;">CUSTOM</div>`;
   }
 
   card.innerHTML = `
@@ -1092,7 +1087,7 @@ function updateCartUI() {
   cart.forEach(item => {
     total += item.price;
     html += `<div class="cart-item">
-      <img src="${item.image}" class="cart-item-img" style="mix-blend-mode:multiply;">
+      <img src="${item.image}" class="cart-item-img">
       <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:space-between;">
         <div><div class="cart-item-title">${item.name}</div><div style="font-size:0.8rem; color:var(--text-light); font-family:'Inter', sans-serif;">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div></div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.5rem;">

@@ -33,30 +33,26 @@ lines.forEach((line) => {
     };
     const colorHex = hexMap[cName] || '#000000';
 
+    // MAPPING STRICTLY BY COLOR TO AVOID WHITE POLOS FOR COLORED VARIANTS
     let img = '/images/polo_blanco.png';
-    // EXACT IMAGE MAPPING BY CATEGORY
-    if (category === 'Polos de Cuello') {
-      if (cName.includes('rojo')) img = '/images/polo_cuello_rojo.png';
-      else if (cName.includes('azul') || cName.includes('negro')) img = '/images/polo_cuello_azul.png';
-      else img = '/images/polo_cuello_blanco.png';
-    } 
-    else if (category === 'Polos Clásicos') {
-      if (cName.includes('rojo')) img = '/images/polo_rojo.png';
-      else if (cName.includes('verde')) img = '/images/polo_verde.png';
-      else if (cName.includes('amarillo') || cName.includes('dorado')) img = '/images/polo_amarillo.png';
-      else if (cName.includes('morado')) img = '/images/polo_morado.png';
-      else if (cName.includes('naranja')) img = '/images/polo_naranja.png';
-      else if (cName.includes('plomo') || cName.includes('azul')) img = '/images/polo_gris.png';
-      else if (cName.includes('negro')) img = '/images/polo_estampado_negro.png'; // closest
-      else img = '/images/polo_blanco.png';
-    }
-    else if (category === 'Polos Estampados') {
-      if (cName.includes('verde') || cName.includes('azul')) img = '/images/polo_estampado_verde.png';
-      else img = '/images/polo_estampado_negro.png';
-    }
-    else if (category === 'Polos Personalizados') {
-      if (gender === 'Mujer') img = '/images/polo_corte_princesa.png';
-      else img = '/images/polo_estampado_negro.png';
+    if (cName.includes('rojo')) {
+      img = category === 'Polos de Cuello' ? '/images/polo_cuello_rojo.png' : '/images/polo_rojo.png';
+    } else if (cName.includes('azul')) {
+      img = '/images/polo_cuello_azul.png';
+    } else if (cName.includes('verde')) {
+      img = category === 'Polos Estampados' ? '/images/polo_estampado_verde.png' : '/images/polo_verde.png';
+    } else if (cName.includes('amarillo') || cName.includes('dorado')) {
+      img = '/images/polo_amarillo.png';
+    } else if (cName.includes('morado')) {
+      img = '/images/polo_morado.png';
+    } else if (cName.includes('naranja')) {
+      img = '/images/polo_naranja.png';
+    } else if (cName.includes('plomo')) {
+      img = '/images/polo_gris.png';
+    } else if (cName.includes('negro')) {
+      img = '/images/polo_estampado_negro.png';
+    } else if (cName.includes('blanco')) {
+      img = category === 'Polos de Cuello' ? '/images/polo_cuello_blanco.png' : '/images/polo_blanco.png';
     }
 
     products.push({
@@ -71,18 +67,15 @@ lines.forEach((line) => {
 const mainJsTemplate = `
 const products = ${JSON.stringify(products, null, 2)};
 
-// State
 let activeFilters = { categories: [], sizes: [], colors: [] };
 let cart = [];
 let currentFilteredProducts = [];
 let visibleCount = 12;
 
-// DOM Elements
 const grid = document.getElementById('product-grid');
 const count = document.getElementById('product-count');
 const activeFiltersContainer = document.getElementById('active-filters');
 const featuredCarousel = document.getElementById('featured-carousel');
-
 const cartIcon = document.getElementById('cart-icon');
 const cartSidebar = document.getElementById('cart-sidebar');
 const cartOverlay = document.getElementById('cart-overlay');
@@ -90,7 +83,6 @@ const closeCartBtn = document.getElementById('close-cart');
 const cartItemsContainer = document.getElementById('cart-items');
 const cartBadge = document.getElementById('cart-badge');
 const cartTotalPrice = document.getElementById('cart-total-price');
-
 const mobileFilterBtn = document.getElementById('mobile-filter-btn');
 const sidebar = document.getElementById('sidebar');
 const filterOverlay = document.getElementById('filter-overlay');
@@ -171,10 +163,8 @@ function createProductCardHTML(product, index) {
   let badgeHtml = '';
   let graphicOverlayHtml = '';
 
-  // Dynamic visual overlays based on exact Excel descriptions!
   if (product.category === 'Polos de Cuello') {
     badgeHtml = \`<div style="font-size:0.75rem; color:var(--text-light); font-style:italic; margin-bottom:0.3rem; font-family:'Inter', sans-serif;">Bordado minimalista 'S'</div>\`;
-    // Tiny golden 'S' on the left chest
     graphicOverlayHtml = \`<div style="position:absolute; top:35%; left:62%; font-family:'Playfair Display', serif; font-size:0.8rem; font-weight:bold; color:#D4AF37; text-shadow:1px 1px 2px rgba(0,0,0,0.3);">S</div>\`;
   } else if (product.category === 'Polos Clásicos') {
     if (product.description.includes('Sky')) {
@@ -183,9 +173,10 @@ function createProductCardHTML(product, index) {
       badgeHtml = \`<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>\`;
     }
   } else if (product.category === 'Polos Estampados') {
-     graphicOverlayHtml = \`<div style="position:absolute; top:40%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:1.3rem; font-weight:900; color:#ffffff; text-shadow: 2px 3px 5px rgba(0,0,0,0.6), 0 0 10px rgba(255,255,255,0.2); letter-spacing:3px; opacity:0.95;">SKYLINE</div>\`;
+     // A smaller, realistic SKYLINE print in the center of the chest
+     graphicOverlayHtml = \`<div style="position:absolute; top:42%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:12px; font-weight:900; color:#f8f8f8; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); letter-spacing:2px; opacity:0.9; pointer-events:none;">SKYLINE</div>\`;
   } else if (product.category === 'Polos Personalizados') {
-     graphicOverlayHtml = \`<div style="position:absolute; top:80%; right:15%; border:2px dashed rgba(255,255,255,0.5); padding:0.2rem 0.5rem; font-size:0.6rem; color:white; font-weight:bold;">CUSTOM</div>\`;
+     graphicOverlayHtml = \`<div style="position:absolute; top:80%; right:15%; border:1px dashed rgba(255,255,255,0.7); padding:0.2rem 0.4rem; font-size:0.5rem; color:white; font-weight:bold; pointer-events:none;">CUSTOM</div>\`;
   }
 
   card.innerHTML = \`
@@ -297,7 +288,7 @@ function updateCartUI() {
   cart.forEach(item => {
     total += item.price;
     html += \`<div class="cart-item">
-      <img src="\${item.image}" class="cart-item-img" style="mix-blend-mode:multiply;">
+      <img src="\${item.image}" class="cart-item-img">
       <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:space-between;">
         <div><div class="cart-item-title">\${item.name}</div><div style="font-size:0.8rem; color:var(--text-light); font-family:'Inter', sans-serif;">Talla: \${item.sizes[0]} | Color: \${item.colorName}</div></div>
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.5rem;">
