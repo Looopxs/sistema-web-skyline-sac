@@ -105,6 +105,8 @@ let cart = [];
 const grid = document.getElementById('product-grid');
 const count = document.getElementById('product-count');
 const activeFiltersContainer = document.getElementById('active-filters');
+
+// Cart Elements
 const cartIcon = document.getElementById('cart-icon');
 const cartSidebar = document.getElementById('cart-sidebar');
 const cartOverlay = document.getElementById('cart-overlay');
@@ -112,6 +114,12 @@ const closeCartBtn = document.getElementById('close-cart');
 const cartItemsContainer = document.getElementById('cart-items');
 const cartBadge = document.getElementById('cart-badge');
 const cartTotalPrice = document.getElementById('cart-total-price');
+
+// Filter Elements (Mobile)
+const mobileFilterBtn = document.getElementById('mobile-filter-btn');
+const sidebar = document.getElementById('sidebar');
+const filterOverlay = document.getElementById('filter-overlay');
+const closeFilterBtn = document.getElementById('close-filter');
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
@@ -174,6 +182,11 @@ function setupEventListeners() {
   cartIcon.addEventListener('click', toggleCart);
   closeCartBtn.addEventListener('click', toggleCart);
   cartOverlay.addEventListener('click', toggleCart);
+  
+  // Mobile Filter Listeners
+  mobileFilterBtn.addEventListener('click', toggleFilterMenu);
+  closeFilterBtn.addEventListener('click', toggleFilterMenu);
+  filterOverlay.addEventListener('click', toggleFilterMenu);
 }
 
 // Filter Logic
@@ -306,15 +319,19 @@ function toggleCart() {
   cartOverlay.classList.toggle('active');
 }
 
+// Mobile Filter Menu Logic
+function toggleFilterMenu() {
+  sidebar.classList.toggle('open');
+  filterOverlay.classList.toggle('active');
+}
+
 function addToCart(productId) {
   const product = products.find(p => p.id === productId);
   if (product) {
-    // Basic implementation: just adds items individually. Could group by ID and count qty.
     const cartItem = { ...product, cartId: Date.now() };
     cart.push(cartItem);
     updateCartUI();
     
-    // Optional: auto-open cart
     if (!cartSidebar.classList.contains('open')) {
       toggleCart();
     }
@@ -361,5 +378,4 @@ function updateCartUI() {
   cartTotalPrice.textContent = `S/ ${total.toFixed(2)}`;
 }
 
-// Make remove function global so the inline onclick works
 window.removeCartItem = removeFromCart;

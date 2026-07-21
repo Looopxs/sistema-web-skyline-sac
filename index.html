@@ -58,8 +58,12 @@
     <!-- Main Content -->
     <main class="catalog-layout">
       <!-- Sidebar Filters -->
-      <aside class="sidebar">
-        <h2 class="filter-title">Refinar Búsqueda</h2>
+      <div class="filter-overlay" id="filter-overlay"></div>
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2 class="filter-title">Filtros</h2>
+          <button class="close-filter" id="close-filter">&times;</button>
+        </div>
         
         <div class="filter-group">
           <h3>Categoría</h3>
@@ -110,6 +114,12 @@
       <section class="products-section">
         <div class="products-header">
           <h1 class="page-title">Catálogo Completo</h1>
+          
+          <button class="mobile-filter-btn" id="mobile-filter-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+            Filtros
+          </button>
+          
           <span class="product-count" id="product-count">Cargando...</span>
         </div>
         
