@@ -79,11 +79,17 @@ lines.forEach((line) => {
       }
       else { img = '/images/polo_blanco.png'; }
     } else if (category === 'Polos Estampados') {
-      if (cName.includes('verde') || cName.includes('azul')) {
-         img = '/images/polo_estampado_verde.png';
-         if (cName.includes('azul')) cssFilter = 'hue-rotate(120deg)';
-      } else {
+      if (cName.includes('negro')) {
          img = '/images/polo_estampado_negro.png';
+      } else {
+         img = '/images/polo_estampado_verde.png'; // Base is Green (Hue ~120deg)
+         if (cName.includes('rojo')) cssFilter = 'hue-rotate(-120deg) saturate(1.5)';
+         else if (cName.includes('naranja')) cssFilter = 'hue-rotate(-90deg) saturate(1.5)';
+         else if (cName.includes('amarillo') || cName.includes('dorado')) cssFilter = 'hue-rotate(-60deg) saturate(2) brightness(1.2)';
+         else if (cName.includes('azul')) cssFilter = 'hue-rotate(120deg) saturate(1.2)';
+         else if (cName.includes('morado')) cssFilter = 'hue-rotate(150deg) saturate(1.5)';
+         else if (cName.includes('blanco')) cssFilter = 'saturate(0) brightness(1.8)';
+         else if (cName.includes('plomo')) cssFilter = 'saturate(0) brightness(0.8)';
       }
     } else if (category === 'Polos Personalizados') {
       img = '/images/polo_corte_princesa.png'; // Base is Light Blue (Cyan ~195deg)

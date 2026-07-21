@@ -1,70 +1,13 @@
 
 const products = [
   {
-    "id": "SKU-015",
-    "name": "Polo Clásico Básico Verde",
-    "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_verde.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "verde",
-    "colorHex": "#228B22",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-011",
-    "name": "Polo Cuello Negro",
+    "id": "SKU-001",
+    "name": "Polo Cuello Rojo",
     "brand": "Skyline SAC",
     "price": 85,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "negro",
-    "colorHex": "#000000",
-    "featured": false,
-    "cssFilter": "brightness(0.5)"
-  },
-  {
-    "id": "SKU-024",
-    "name": "Polo Clásico Básico Blanco",
-    "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_blanco.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "blanco",
-    "colorHex": "#ffffff",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-025",
-    "name": "Polo Estampado Arte Urbano",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
       "S",
       "M",
@@ -77,80 +20,23 @@ const products = [
     "cssFilter": ""
   },
   {
-    "id": "SKU-031",
-    "name": "Polo Estampado Arte Urbano",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "dorado",
-    "colorHex": "#D4AF37",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-037",
-    "name": "Polo Custom Edition Rojo",
-    "brand": "Skyline SAC",
-    "price": 50,
-    "image": "/images/polo_corte_princesa.png",
-    "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "rojo",
-    "colorHex": "#8B0000",
-    "featured": false,
-    "cssFilter": "hue-rotate(-195deg) saturate(2)"
-  },
-  {
-    "id": "SKU-033",
-    "name": "Polo Estampado Minimalismo",
+    "id": "SKU-029",
+    "name": "Polo Estampado Ilustración Abstracta",
     "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
+    "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "colorName": "azul oscuro",
-    "colorHex": "#000033",
+    "colorName": "morado",
+    "colorHex": "#4B0082",
     "featured": false,
-    "cssFilter": "hue-rotate(120deg)"
-  },
-  {
-    "id": "SKU-036",
-    "name": "Polo Estampado Patrón Vintage",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "blanco",
-    "colorHex": "#ffffff",
-    "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(150deg) saturate(1.5)"
   },
   {
     "id": "SKU-042",
@@ -172,11 +58,11 @@ const products = [
     "cssFilter": "hue-rotate(-165deg) saturate(2)"
   },
   {
-    "id": "SKU-009",
-    "name": "Polo Cuello Azul Oscuro",
+    "id": "SKU-007",
+    "name": "Polo Cuello Dorado",
     "brand": "Skyline SAC",
     "price": 85,
-    "image": "/images/polo_cuello_azul.png",
+    "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
     "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
@@ -185,19 +71,57 @@ const products = [
       "L",
       "XL"
     ],
-    "colorName": "azul oscuro",
-    "colorHex": "#000033",
+    "colorName": "dorado",
+    "colorHex": "#D4AF37",
     "featured": false,
-    "cssFilter": "brightness(0.5)"
+    "cssFilter": "hue-rotate(65deg) saturate(1.8) brightness(1.2)"
   },
   {
-    "id": "SKU-006",
-    "name": "Polo Cuello Naranja",
+    "id": "SKU-031",
+    "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_rojo.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "dorado",
+    "colorHex": "#D4AF37",
+    "featured": false,
+    "cssFilter": "hue-rotate(-60deg) saturate(2) brightness(1.2)"
+  },
+  {
+    "id": "SKU-017",
+    "name": "Polo Clásico Básico Morado",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_morado.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "morado",
+    "colorHex": "#4B0082",
+    "featured": false,
+    "cssFilter": ""
+  },
+  {
+    "id": "SKU-030",
+    "name": "Polo Estampado Patrón Vintage",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
     "sizes": [
       "XS",
       "S",
@@ -207,125 +131,11 @@ const products = [
     "colorName": "naranja",
     "colorHex": "#FF8C00",
     "featured": false,
-    "cssFilter": "hue-rotate(35deg) saturate(1.5)"
+    "cssFilter": "hue-rotate(-90deg) saturate(1.5)"
   },
   {
-    "id": "SKU-005",
-    "name": "Polo Cuello Morado",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_azul.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "morado",
-    "colorHex": "#4B0082",
-    "featured": false,
-    "cssFilter": "hue-rotate(50deg) saturate(1.5)"
-  },
-  {
-    "id": "SKU-038",
-    "name": "Polo Custom Edition Azul",
-    "brand": "Skyline SAC",
-    "price": 50,
-    "image": "/images/polo_corte_princesa.png",
-    "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "azul",
-    "colorHex": "#001F3F",
-    "featured": false,
-    "cssFilter": "hue-rotate(30deg) saturate(1.5)"
-  },
-  {
-    "id": "SKU-014",
-    "name": "Polo Clásico Básico Azul",
-    "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_gris.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "azul",
-    "colorHex": "#001F3F",
-    "featured": true,
-    "cssFilter": "hue-rotate(200deg) saturate(2) brightness(0.7)"
-  },
-  {
-    "id": "SKU-041",
-    "name": "Polo Custom Edition Morado",
-    "brand": "Skyline SAC",
-    "price": 50,
-    "image": "/images/polo_corte_princesa.png",
-    "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Diseño asimétrico con logo en la manga. Ideal para pedidos únicos.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "morado",
-    "colorHex": "#4B0082",
-    "featured": false,
-    "cssFilter": "hue-rotate(75deg) saturate(1.5)"
-  },
-  {
-    "id": "SKU-012",
-    "name": "Polo Cuello Blanco",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_blanco.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "blanco",
-    "colorHex": "#ffffff",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-032",
-    "name": "Polo Estampado Líneas Geométricas",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "plomo",
-    "colorHex": "#808080",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-039",
-    "name": "Polo Custom Edition Verde",
+    "id": "SKU-045",
+    "name": "Polo Custom Edition Azul Oscuro",
     "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_corte_princesa.png",
@@ -337,48 +147,10 @@ const products = [
       "L",
       "XL"
     ],
-    "colorName": "verde",
-    "colorHex": "#228B22",
+    "colorName": "azul oscuro",
+    "colorHex": "#000033",
     "featured": false,
-    "cssFilter": "hue-rotate(-75deg) saturate(1.5)"
-  },
-  {
-    "id": "SKU-003",
-    "name": "Polo Cuello Verde",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_rojo.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "verde",
-    "colorHex": "#228B22",
-    "featured": false,
-    "cssFilter": "hue-rotate(130deg) saturate(1.2)"
-  },
-  {
-    "id": "SKU-027",
-    "name": "Polo Estampado Minimalismo",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_verde.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "verde",
-    "colorHex": "#228B22",
-    "featured": false,
-    "cssFilter": ""
+    "cssFilter": "hue-rotate(45deg) saturate(1.5) brightness(0.6)"
   },
   {
     "id": "SKU-048",
@@ -400,146 +172,51 @@ const products = [
     "cssFilter": "saturate(0) brightness(1.5)"
   },
   {
-    "id": "SKU-030",
-    "name": "Polo Estampado Patrón Vintage",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "naranja",
-    "colorHex": "#FF8C00",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-007",
-    "name": "Polo Cuello Dorado",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_rojo.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "dorado",
-    "colorHex": "#D4AF37",
-    "featured": false,
-    "cssFilter": "hue-rotate(65deg) saturate(1.8) brightness(1.2)"
-  },
-  {
-    "id": "SKU-026",
-    "name": "Polo Estampado Líneas Geométricas",
+    "id": "SKU-028",
+    "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
+    "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "colorName": "azul",
-    "colorHex": "#001F3F",
+    "colorName": "amarillo",
+    "colorHex": "#FFD700",
     "featured": false,
-    "cssFilter": "hue-rotate(120deg)"
+    "cssFilter": "hue-rotate(-60deg) saturate(2) brightness(1.2)"
   },
   {
-    "id": "SKU-043",
-    "name": "Polo Custom Edition Dorado",
-    "brand": "Skyline SAC",
-    "price": 50,
-    "image": "/images/polo_corte_princesa.png",
-    "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "dorado",
-    "colorHex": "#D4AF37",
-    "featured": false,
-    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
-  },
-  {
-    "id": "SKU-035",
-    "name": "Polo Estampado Ilustración Abstracta",
+    "id": "SKU-025",
+    "name": "Polo Estampado Arte Urbano",
     "brand": "Skyline SAC",
     "price": 45,
-    "image": "/images/polo_estampado_negro.png",
+    "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
+    "description": "Estampado de alta resolución y durabilidad con temática de Arte Urbano en la parte frontal.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "colorName": "negro",
-    "colorHex": "#000000",
-    "featured": false,
-    "cssFilter": ""
+    "colorName": "rojo",
+    "colorHex": "#8B0000",
+    "featured": true,
+    "cssFilter": "hue-rotate(-120deg) saturate(1.5)"
   },
   {
-    "id": "SKU-023",
-    "name": "Polo Clásico Básico Negro",
+    "id": "SKU-034",
+    "name": "Polo Estampado Tipografía Moderna",
     "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_gris.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "negro",
-    "colorHex": "#000000",
-    "featured": false,
-    "cssFilter": "brightness(0.2)"
-  },
-  {
-    "id": "SKU-019",
-    "name": "Polo Clásico Básico Dorado",
-    "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_amarillo.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "dorado",
-    "colorHex": "#D4AF37",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-010",
-    "name": "Polo Cuello Rojo Oscuro",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_rojo.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
     "sizes": [
       "XS",
       "S",
@@ -549,24 +226,100 @@ const products = [
     "colorName": "rojo oscuro",
     "colorHex": "#4d0000",
     "featured": false,
-    "cssFilter": "brightness(0.7)"
+    "cssFilter": "hue-rotate(-120deg) saturate(1.5)"
   },
   {
-    "id": "SKU-018",
-    "name": "Polo Clásico Básico Naranja",
+    "id": "SKU-004",
+    "name": "Polo Cuello Amarillo",
     "brand": "Skyline SAC",
-    "price": 30,
-    "image": "/images/polo_naranja.png",
-    "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
+    "price": 85,
+    "image": "/images/polo_cuello_rojo.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "colorName": "naranja",
-    "colorHex": "#FF8C00",
+    "colorName": "amarillo",
+    "colorHex": "#FFD700",
+    "featured": false,
+    "cssFilter": "hue-rotate(65deg) saturate(1.8) brightness(1.2)"
+  },
+  {
+    "id": "SKU-041",
+    "name": "Polo Custom Edition Morado",
+    "brand": "Skyline SAC",
+    "price": 50,
+    "image": "/images/polo_corte_princesa.png",
+    "category": "Polos Personalizados",
+    "description": "Diseño a pedido del cliente: Diseño asimétrico con logo en la manga. Ideal para pedidos únicos.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "morado",
+    "colorHex": "#4B0082",
+    "featured": false,
+    "cssFilter": "hue-rotate(75deg) saturate(1.5)"
+  },
+  {
+    "id": "SKU-008",
+    "name": "Polo Cuello Plomo",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_blanco.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "plomo",
+    "colorHex": "#808080",
+    "featured": false,
+    "cssFilter": "brightness(0.8)"
+  },
+  {
+    "id": "SKU-005",
+    "name": "Polo Cuello Morado",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_azul.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "morado",
+    "colorHex": "#4B0082",
+    "featured": false,
+    "cssFilter": "hue-rotate(50deg) saturate(1.5)"
+  },
+  {
+    "id": "SKU-015",
+    "name": "Polo Clásico Básico Verde",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_verde.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "verde",
+    "colorHex": "#228B22",
     "featured": false,
     "cssFilter": ""
   },
@@ -590,65 +343,46 @@ const products = [
     "cssFilter": ""
   },
   {
-    "id": "SKU-028",
-    "name": "Polo Estampado Tipografía Moderna",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "amarillo",
-    "colorHex": "#FFD700",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-044",
-    "name": "Polo Custom Edition Plomo",
+    "id": "SKU-039",
+    "name": "Polo Custom Edition Verde",
     "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "colorName": "plomo",
-    "colorHex": "#808080",
-    "featured": false,
-    "cssFilter": "saturate(0) brightness(0.8)"
-  },
-  {
-    "id": "SKU-001",
-    "name": "Polo Cuello Rojo",
-    "brand": "Skyline SAC",
-    "price": 85,
-    "image": "/images/polo_cuello_rojo.png",
-    "category": "Polos de Cuello",
-    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "colorName": "rojo",
-    "colorHex": "#8B0000",
-    "featured": true,
-    "cssFilter": ""
+    "colorName": "verde",
+    "colorHex": "#228B22",
+    "featured": false,
+    "cssFilter": "hue-rotate(-75deg) saturate(1.5)"
   },
   {
-    "id": "SKU-008",
-    "name": "Polo Cuello Plomo",
+    "id": "SKU-026",
+    "name": "Polo Estampado Líneas Geométricas",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "azul",
+    "colorHex": "#001F3F",
+    "featured": false,
+    "cssFilter": "hue-rotate(120deg) saturate(1.2)"
+  },
+  {
+    "id": "SKU-012",
+    "name": "Polo Cuello Blanco",
     "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_blanco.png",
@@ -660,29 +394,29 @@ const products = [
       "M",
       "L"
     ],
-    "colorName": "plomo",
-    "colorHex": "#808080",
+    "colorName": "blanco",
+    "colorHex": "#ffffff",
     "featured": false,
-    "cssFilter": "brightness(0.8)"
+    "cssFilter": ""
   },
   {
-    "id": "SKU-046",
-    "name": "Polo Custom Edition Rojo Oscuro",
+    "id": "SKU-038",
+    "name": "Polo Custom Edition Azul",
     "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
+    "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "colorName": "rojo oscuro",
-    "colorHex": "#4d0000",
+    "colorName": "azul",
+    "colorHex": "#001F3F",
     "featured": false,
-    "cssFilter": "hue-rotate(-195deg) saturate(2)"
+    "cssFilter": "hue-rotate(30deg) saturate(1.5)"
   },
   {
     "id": "SKU-002",
@@ -700,6 +434,82 @@ const products = [
     ],
     "colorName": "azul",
     "colorHex": "#001F3F",
+    "featured": false,
+    "cssFilter": ""
+  },
+  {
+    "id": "SKU-009",
+    "name": "Polo Cuello Azul Oscuro",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_azul.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "azul oscuro",
+    "colorHex": "#000033",
+    "featured": false,
+    "cssFilter": "brightness(0.5)"
+  },
+  {
+    "id": "SKU-032",
+    "name": "Polo Estampado Líneas Geométricas",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Líneas Geométricas en la parte frontal.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "plomo",
+    "colorHex": "#808080",
+    "featured": false,
+    "cssFilter": "saturate(0) brightness(0.8)"
+  },
+  {
+    "id": "SKU-019",
+    "name": "Polo Clásico Básico Dorado",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_amarillo.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "dorado",
+    "colorHex": "#D4AF37",
+    "featured": false,
+    "cssFilter": ""
+  },
+  {
+    "id": "SKU-018",
+    "name": "Polo Clásico Básico Naranja",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_naranja.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "naranja",
+    "colorHex": "#FF8C00",
     "featured": false,
     "cssFilter": ""
   },
@@ -723,42 +533,42 @@ const products = [
     "cssFilter": ""
   },
   {
-    "id": "SKU-029",
-    "name": "Polo Estampado Ilustración Abstracta",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colorName": "morado",
-    "colorHex": "#4B0082",
-    "featured": false,
-    "cssFilter": ""
-  },
-  {
-    "id": "SKU-045",
-    "name": "Polo Custom Edition Azul Oscuro",
+    "id": "SKU-043",
+    "name": "Polo Custom Edition Dorado",
     "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_corte_princesa.png",
     "category": "Polos Personalizados",
-    "description": "Diseño a pedido del cliente: Degradado exclusivo con iniciales bordadas. Ideal para pedidos únicos.",
+    "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "colorName": "azul oscuro",
-    "colorHex": "#000033",
+    "colorName": "dorado",
+    "colorHex": "#D4AF37",
     "featured": false,
-    "cssFilter": "hue-rotate(45deg) saturate(1.5) brightness(0.6)"
+    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
+  },
+  {
+    "id": "SKU-027",
+    "name": "Polo Estampado Minimalismo",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "verde",
+    "colorHex": "#228B22",
+    "featured": false,
+    "cssFilter": ""
   },
   {
     "id": "SKU-021",
@@ -780,27 +590,46 @@ const products = [
     "cssFilter": "hue-rotate(200deg) saturate(2) brightness(0.7)"
   },
   {
-    "id": "SKU-017",
-    "name": "Polo Clásico Básico Morado",
+    "id": "SKU-020",
+    "name": "Polo Clásico Básico Plomo",
     "brand": "Skyline SAC",
     "price": 30,
-    "image": "/images/polo_morado.png",
+    "image": "/images/polo_gris.png",
     "category": "Polos Clásicos",
-    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
-    "colorName": "morado",
-    "colorHex": "#4B0082",
+    "colorName": "plomo",
+    "colorHex": "#808080",
     "featured": false,
     "cssFilter": ""
   },
   {
-    "id": "SKU-004",
-    "name": "Polo Cuello Amarillo",
+    "id": "SKU-040",
+    "name": "Polo Custom Edition Amarillo",
+    "brand": "Skyline SAC",
+    "price": 50,
+    "image": "/images/polo_corte_princesa.png",
+    "category": "Polos Personalizados",
+    "description": "Diseño a pedido del cliente: Combinación bicolor con costuras expuestas. Ideal para pedidos únicos.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "amarillo",
+    "colorHex": "#FFD700",
+    "featured": false,
+    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
+  },
+  {
+    "id": "SKU-010",
+    "name": "Polo Cuello Rojo Oscuro",
     "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_rojo.png",
@@ -812,36 +641,36 @@ const products = [
       "M",
       "L"
     ],
-    "colorName": "amarillo",
-    "colorHex": "#FFD700",
-    "featured": false,
-    "cssFilter": "hue-rotate(65deg) saturate(1.8) brightness(1.2)"
-  },
-  {
-    "id": "SKU-034",
-    "name": "Polo Estampado Tipografía Moderna",
-    "brand": "Skyline SAC",
-    "price": 45,
-    "image": "/images/polo_estampado_negro.png",
-    "category": "Polos Estampados",
-    "description": "Estampado de alta resolución y durabilidad con temática de Tipografía Moderna en la parte frontal.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
     "colorName": "rojo oscuro",
     "colorHex": "#4d0000",
     "featured": false,
-    "cssFilter": ""
+    "cssFilter": "brightness(0.7)"
   },
   {
-    "id": "SKU-022",
-    "name": "Polo Clásico Básico Rojo Oscuro",
+    "id": "SKU-003",
+    "name": "Polo Cuello Verde",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_rojo.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "verde",
+    "colorHex": "#228B22",
+    "featured": false,
+    "cssFilter": "hue-rotate(130deg) saturate(1.2)"
+  },
+  {
+    "id": "SKU-024",
+    "name": "Polo Clásico Básico Blanco",
     "brand": "Skyline SAC",
     "price": 30,
-    "image": "/images/polo_rojo.png",
+    "image": "/images/polo_blanco.png",
     "category": "Polos Clásicos",
     "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
     "sizes": [
@@ -850,8 +679,8 @@ const products = [
       "M",
       "L"
     ],
-    "colorName": "rojo oscuro",
-    "colorHex": "#4d0000",
+    "colorName": "blanco",
+    "colorHex": "#ffffff",
     "featured": false,
     "cssFilter": ""
   },
@@ -875,8 +704,103 @@ const products = [
     "cssFilter": "brightness(0.2)"
   },
   {
-    "id": "SKU-040",
-    "name": "Polo Custom Edition Amarillo",
+    "id": "SKU-033",
+    "name": "Polo Estampado Minimalismo",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Minimalismo en la parte frontal.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "azul oscuro",
+    "colorHex": "#000033",
+    "featured": false,
+    "cssFilter": "hue-rotate(120deg) saturate(1.2)"
+  },
+  {
+    "id": "SKU-037",
+    "name": "Polo Custom Edition Rojo",
+    "brand": "Skyline SAC",
+    "price": 50,
+    "image": "/images/polo_corte_princesa.png",
+    "category": "Polos Personalizados",
+    "description": "Diseño a pedido del cliente: Estilo urbano oversized con parche reflectivo. Ideal para pedidos únicos.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "rojo",
+    "colorHex": "#8B0000",
+    "featured": false,
+    "cssFilter": "hue-rotate(-195deg) saturate(2)"
+  },
+  {
+    "id": "SKU-022",
+    "name": "Polo Clásico Básico Rojo Oscuro",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_rojo.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Kyle en la parte superior de la espalda.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "rojo oscuro",
+    "colorHex": "#4d0000",
+    "featured": false,
+    "cssFilter": ""
+  },
+  {
+    "id": "SKU-023",
+    "name": "Polo Clásico Básico Negro",
+    "brand": "Skyline SAC",
+    "price": 30,
+    "image": "/images/polo_gris.png",
+    "category": "Polos Clásicos",
+    "description": "Corte clásico sin cuello, cómodo para uso diario. Texto Sky centrado en el pecho.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "negro",
+    "colorHex": "#000000",
+    "featured": false,
+    "cssFilter": "brightness(0.2)"
+  },
+  {
+    "id": "SKU-036",
+    "name": "Polo Estampado Patrón Vintage",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_verde.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Patrón Vintage en la parte frontal.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "blanco",
+    "colorHex": "#ffffff",
+    "featured": false,
+    "cssFilter": "saturate(0) brightness(1.8)"
+  },
+  {
+    "id": "SKU-046",
+    "name": "Polo Custom Edition Rojo Oscuro",
     "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_corte_princesa.png",
@@ -888,14 +812,52 @@ const products = [
       "M",
       "L"
     ],
-    "colorName": "amarillo",
-    "colorHex": "#FFD700",
+    "colorName": "rojo oscuro",
+    "colorHex": "#4d0000",
     "featured": false,
-    "cssFilter": "hue-rotate(-135deg) saturate(2) brightness(1.1)"
+    "cssFilter": "hue-rotate(-195deg) saturate(2)"
   },
   {
-    "id": "SKU-020",
-    "name": "Polo Clásico Básico Plomo",
+    "id": "SKU-044",
+    "name": "Polo Custom Edition Plomo",
+    "brand": "Skyline SAC",
+    "price": 50,
+    "image": "/images/polo_corte_princesa.png",
+    "category": "Polos Personalizados",
+    "description": "Diseño a pedido del cliente: Corte deportivo sin mangas tipo jersey. Ideal para pedidos únicos.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "plomo",
+    "colorHex": "#808080",
+    "featured": false,
+    "cssFilter": "saturate(0) brightness(0.8)"
+  },
+  {
+    "id": "SKU-011",
+    "name": "Polo Cuello Negro",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_azul.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "negro",
+    "colorHex": "#000000",
+    "featured": false,
+    "cssFilter": "brightness(0.5)"
+  },
+  {
+    "id": "SKU-014",
+    "name": "Polo Clásico Básico Azul",
     "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_gris.png",
@@ -907,10 +869,48 @@ const products = [
       "M",
       "L"
     ],
-    "colorName": "plomo",
-    "colorHex": "#808080",
+    "colorName": "azul",
+    "colorHex": "#001F3F",
+    "featured": true,
+    "cssFilter": "hue-rotate(200deg) saturate(2) brightness(0.7)"
+  },
+  {
+    "id": "SKU-035",
+    "name": "Polo Estampado Ilustración Abstracta",
+    "brand": "Skyline SAC",
+    "price": 45,
+    "image": "/images/polo_estampado_negro.png",
+    "category": "Polos Estampados",
+    "description": "Estampado de alta resolución y durabilidad con temática de Ilustración Abstracta en la parte frontal.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colorName": "negro",
+    "colorHex": "#000000",
     "featured": false,
     "cssFilter": ""
+  },
+  {
+    "id": "SKU-006",
+    "name": "Polo Cuello Naranja",
+    "brand": "Skyline SAC",
+    "price": 85,
+    "image": "/images/polo_cuello_rojo.png",
+    "category": "Polos de Cuello",
+    "description": "Diseño minimalista y elegante. Sin estampados grandes. Incluye únicamente la letra 'S' bordada sutilmente en el pecho izquierdo.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colorName": "naranja",
+    "colorHex": "#FF8C00",
+    "featured": false,
+    "cssFilter": "hue-rotate(35deg) saturate(1.5)"
   }
 ];
 
