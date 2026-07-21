@@ -22,10 +22,17 @@ lines.forEach((line) => {
     let name = parts[1].replace(/Premium\s?/gi, '').trim();
     const category = parts[2], gender = parts[3], color = parts[4], description = parts[5];
     
-    let price = 85.00;
+    let price = 30.00; // Default base price
+    const nameLower = name.toLowerCase();
+    
+    // Asignar precios por categoría según las reglas del usuario
     if (category === 'Polos Clásicos') price = 30.00;
-    if (category === 'Polos Estampados') price = 45.00;
-    if (category === 'Polos Personalizados') price = 50.00;
+    else if (category === 'Polos de Cuello') price = 50.00;
+    else if (category === 'Polos Personalizados') price = 65.00;
+    
+    // Sobrescribir por modelo específico si aplica
+    if (nameLower.includes('princesa')) price = 35.00;
+    else if (nameLower.includes('sin cuello')) price = 30.00;
 
     const cName = color.toLowerCase();
     const hexMap = {
