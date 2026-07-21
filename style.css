@@ -688,10 +688,55 @@ h1, h2, h3, .logo {
   }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  
+  .catalog-layout {
+    padding: 0 1rem;
+    margin: 1.5rem auto;
   }
   
   .product-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .product-card {
+    border-radius: 12px;
+  }
+  
+  .product-info {
+    padding: 0.8rem;
+  }
+  
+  .product-brand {
+    font-size: 0.65rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .product-name {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .product-price {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .product-bottom-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .add-to-cart-btn {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  .cart-sidebar {
+    max-width: 85%;
   }
 }
