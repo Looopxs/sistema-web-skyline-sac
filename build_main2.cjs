@@ -109,6 +109,12 @@ lines.forEach((line) => {
   }
 });
 
+// Shuffle the products array so the grid doesn't show 3 rows of the same category/shape consecutively
+for (let i = products.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [products[i], products[j]] = [products[j], products[i]];
+}
+
 const mainJsTemplate = `
 const products = ${JSON.stringify(products, null, 2)};
 
