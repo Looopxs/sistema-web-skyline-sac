@@ -239,7 +239,7 @@ function createProductCardHTML(product, index) {
       </div>
     </div>
     <div class="product-info">
-      <span class="product-brand">${product.brand}</span>
+      <span class="product-brand">${product.brand} &nbsp;&bull;&nbsp; <span style="color:var(--accent-color); font-weight:600;">100% Algodón Pima</span></span>
       <h3 class="product-name">${product.name}</h3>
       <div class="product-price">
         ${pricePrefix}S/ ${product.price.toFixed(2)} 
