@@ -1,92 +1,92 @@
 // Product Data (18 models meticulously mapped to their visual representation)
 const products = [
   {
-    id: 1, name: 'Polo Básico Slim Fit Blanco', brand: 'Skyline Essentials', price: 29.90,
+    id: 1, name: 'Polo Básico Slim Fit Blanco', brand: 'Skyline SAC Essentials', price: 29.90,
     image: '/images/polo_blanco.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'blanco', colorHex: '#ffffff'
   },
   {
-    id: 2, name: 'Polo Estampado Geométrico Negro', brand: 'Skyline Design', price: 45.90,
+    id: 2, name: 'Polo Estampado Geométrico Negro', brand: 'Skyline SAC Design', price: 45.90,
     image: '/images/polo_estampado_negro.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
     colorName: 'negro', colorHex: '#000000'
   },
   {
-    id: 3, name: 'Polo Piqué Elegante Azul', brand: 'Skyline Premium', price: 69.90,
+    id: 3, name: 'Polo Piqué Elegante Azul', brand: 'Skyline SAC Premium', price: 69.90,
     image: '/images/polo_cuello_azul.png', categories: ['basico', 'personalizado'], models: ['hombre', 'cuello'], sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colorName: 'azul', colorHex: '#001F3F'
   },
   {
-    id: 4, name: 'Polo Corte Princesa Celeste', brand: 'Skyline Woman', price: 35.90,
+    id: 4, name: 'Polo Corte Princesa Celeste', brand: 'Skyline SAC Woman', price: 35.90,
     image: '/images/polo_corte_princesa.png', categories: ['basico'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M', 'L'],
     colorName: 'celeste', colorHex: '#87CEEB'
   },
   {
-    id: 5, name: 'Polo Básico Rojo Pasión', brand: 'Skyline Essentials', price: 32.90,
+    id: 5, name: 'Polo Básico Rojo Pasión', brand: 'Skyline SAC Essentials', price: 32.90,
     image: '/images/polo_rojo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'rojo', colorHex: '#8B0000'
   },
   {
-    id: 6, name: 'Polo Forest Verde Clásico', brand: 'Skyline Nature', price: 39.90,
+    id: 6, name: 'Polo Forest Verde Clásico', brand: 'Skyline SAC Nature', price: 39.90,
     image: '/images/polo_verde.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'verde', colorHex: '#228B22'
   },
   {
-    id: 7, name: 'Polo Verano Amarillo', brand: 'Skyline Active', price: 34.90,
+    id: 7, name: 'Polo Verano Amarillo', brand: 'Skyline SAC Active', price: 34.90,
     image: '/images/polo_amarillo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'amarillo', colorHex: '#FFD700'
   },
   {
-    id: 8, name: 'Polo Urbano Gris', brand: 'Skyline Street', price: 42.90,
+    id: 8, name: 'Polo Urbano Gris', brand: 'Skyline SAC Street', price: 42.90,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
     colorName: 'gris', colorHex: '#808080'
   },
   {
-    id: 9, name: 'Polo Sunset Naranja', brand: 'Skyline Active', price: 36.90,
+    id: 9, name: 'Polo Sunset Naranja', brand: 'Skyline SAC Active', price: 36.90,
     image: '/images/polo_naranja.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'naranja', colorHex: '#FF8C00'
   },
   {
-    id: 10, name: 'Polo Royal Morado', brand: 'Skyline Premium', price: 55.90,
+    id: 10, name: 'Polo Royal Morado', brand: 'Skyline SAC Premium', price: 55.90,
     image: '/images/polo_morado.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'morado', colorHex: '#4B0082'
   },
   {
-    id: 11, name: 'Polo Personalizado Negro', brand: 'Skyline Custom', price: 49.90,
+    id: 11, name: 'Polo Personalizado Negro', brand: 'Skyline SAC Custom', price: 49.90,
     image: '/images/polo_estampado_negro.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'negro', colorHex: '#000000'
   },
   {
-    id: 12, name: 'Polo Cuello Piqué Blanco', brand: 'Skyline Premium', price: 65.90,
+    id: 12, name: 'Polo Cuello Piqué Blanco', brand: 'Skyline SAC Premium', price: 65.90,
     image: '/images/polo_cuello_blanco.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'blanco', colorHex: '#ffffff'
   },
   {
-    id: 13, name: 'Polo Estampado Princesa', brand: 'Skyline Woman', price: 45.90,
+    id: 13, name: 'Polo Estampado Princesa', brand: 'Skyline SAC Woman', price: 45.90,
     image: '/images/polo_corte_princesa.png', categories: ['estampado'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M'],
     colorName: 'celeste', colorHex: '#87CEEB'
   },
   {
-    id: 14, name: 'Polo Casual Gris Melange', brand: 'Skyline Essentials', price: 33.90,
+    id: 14, name: 'Polo Casual Gris Melange', brand: 'Skyline SAC Essentials', price: 33.90,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     colorName: 'gris', colorHex: '#808080'
   },
   {
-    id: 15, name: 'Polo Cuello Ejecutivo Rojo', brand: 'Skyline Premium', price: 69.90,
+    id: 15, name: 'Polo Cuello Ejecutivo Rojo', brand: 'Skyline SAC Premium', price: 69.90,
     image: '/images/polo_cuello_rojo.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'rojo', colorHex: '#8B0000'
   },
   {
-    id: 16, name: 'Polo Estampado Urbano Verde', brand: 'Skyline Design', price: 48.90,
+    id: 16, name: 'Polo Estampado Urbano Verde', brand: 'Skyline SAC Design', price: 48.90,
     image: '/images/polo_estampado_verde.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'verde', colorHex: '#228B22'
   },
   {
-    id: 17, name: 'Polo Personalizado Amarillo', brand: 'Skyline Custom', price: 52.90,
+    id: 17, name: 'Polo Personalizado Amarillo', brand: 'Skyline SAC Custom', price: 52.90,
     image: '/images/polo_amarillo.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'amarillo', colorHex: '#FFD700'
   },
   {
-    id: 18, name: 'Polo Bordado Premium', brand: 'Skyline Premium', price: 62.90,
+    id: 18, name: 'Polo Bordado Premium', brand: 'Skyline SAC Premium', price: 62.90,
     image: '/images/polo_cuello_azul.png', categories: ['bordado'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'azul', colorHex: '#001F3F'
   }
