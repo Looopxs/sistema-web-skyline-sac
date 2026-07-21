@@ -239,11 +239,12 @@ function createProductCardHTML(product, index) {
       </div>
     </div>
     <div class="product-info">
-      <span class="product-brand">${product.brand} &nbsp;&bull;&nbsp; <span style="color:var(--accent-color); font-weight:600;">100% Algodón Pima</span></span>
+      <div class="product-brand">${product.brand}</div>
+      <div style="color:var(--accent-color); font-size:0.65rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:0.5rem; font-family:'Inter', sans-serif;">100% Algodón Pima</div>
       <h3 class="product-name">${product.name}</h3>
       <div class="product-price">
         ${pricePrefix}S/ ${product.price.toFixed(2)} 
-        <span style="color:var(--text-light); font-size:0.85rem; font-weight:400; font-family:'Inter', sans-serif;">| $ ${(product.price / 3.80).toFixed(2)}</span>
+        <span class="usd-price">| $ ${(product.price / 3.80).toFixed(2)}</span>
       </div>
       <div class="product-colors" style="display:flex; justify-content:center; gap:0.5rem; margin-top:0.5rem;">
         ${colorsHtml}
