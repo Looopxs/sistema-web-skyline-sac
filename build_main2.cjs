@@ -182,7 +182,6 @@ function createProductCardHTML(product, index) {
       graphicOverlayHtml = \`<div style="position:absolute; top:45%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:1.2rem; font-weight:800; color:rgba(255,255,255,0.7); mix-blend-mode:overlay; letter-spacing:3px;">SKY</div>\`;
     } else if (product.description.includes('Kyle')) {
       badgeHtml = \`<div style="font-size:0.7rem; font-weight:600; color:var(--primary-color); margin-bottom:0.4rem; background:#f0f0f0; display:inline-block; padding:0.2rem 0.5rem; border-radius:4px; text-transform:uppercase; letter-spacing:0.5px;">Diseño: Kyle (Espalda)</div>\`;
-      graphicOverlayHtml = \`<div style="position:absolute; top:20%; left:50%; transform:translate(-50%, -50%); font-family:'Inter', sans-serif; font-size:0.9rem; font-weight:800; color:rgba(255,255,255,0.6); mix-blend-mode:overlay; letter-spacing:2px;">KYLE</div>\`;
     }
   } else if (product.category === 'Polos Estampados') {
      graphicOverlayHtml = \`<svg style="position:absolute; top:45%; left:50%; transform:translate(-50%, -50%); width:60px; height:60px; opacity:0.6; mix-blend-mode:overlay;" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-width="4"><circle cx="50" cy="50" r="40"/><path d="M 30 50 L 70 50 M 50 30 L 50 70"/></svg>\`;
