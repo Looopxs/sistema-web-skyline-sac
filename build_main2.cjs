@@ -18,7 +18,9 @@ lines.forEach((line) => {
   parts.push(current);
 
   if (parts.length >= 7) {
-    const sku = parts[0], name = parts[1], category = parts[2], gender = parts[3], color = parts[4], description = parts[5];
+    const sku = parts[0];
+    let name = parts[1].replace(/Premium\s?/gi, '').trim();
+    const category = parts[2], gender = parts[3], color = parts[4], description = parts[5];
     
     let price = 85.00;
     if (category === 'Polos Clásicos') price = 30.00;
@@ -56,7 +58,7 @@ lines.forEach((line) => {
     }
 
     products.push({
-      id: sku, name: name, brand: 'Skyline SAC ' + (category.split(' ')[1] || 'Premium'),
+      id: sku, name: name, brand: 'Skyline SAC',
       price: price, image: img, category: category, description: description,
       sizes: gender === 'Hombre' ? ['S', 'M', 'L', 'XL'] : ['XS', 'S', 'M', 'L'],
       colorName: cName, colorHex: colorHex, featured: sku.includes('001') || sku.includes('014') || sku.includes('025')

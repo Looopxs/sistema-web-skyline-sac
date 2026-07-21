@@ -2,8 +2,8 @@
 const products = [
   {
     "id": "SKU-001",
-    "name": "Polo Cuello Premium Rojo",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Rojo",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
@@ -20,8 +20,8 @@ const products = [
   },
   {
     "id": "SKU-002",
-    "name": "Polo Cuello Premium Azul",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Azul",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos de Cuello",
@@ -38,8 +38,8 @@ const products = [
   },
   {
     "id": "SKU-003",
-    "name": "Polo Cuello Premium Verde",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Verde",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_verde.png",
     "category": "Polos de Cuello",
@@ -56,8 +56,8 @@ const products = [
   },
   {
     "id": "SKU-004",
-    "name": "Polo Cuello Premium Amarillo",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Amarillo",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_amarillo.png",
     "category": "Polos de Cuello",
@@ -74,8 +74,8 @@ const products = [
   },
   {
     "id": "SKU-005",
-    "name": "Polo Cuello Premium Morado",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Morado",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_morado.png",
     "category": "Polos de Cuello",
@@ -92,8 +92,8 @@ const products = [
   },
   {
     "id": "SKU-006",
-    "name": "Polo Cuello Premium Naranja",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Naranja",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_naranja.png",
     "category": "Polos de Cuello",
@@ -110,8 +110,8 @@ const products = [
   },
   {
     "id": "SKU-007",
-    "name": "Polo Cuello Premium Dorado",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Dorado",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_amarillo.png",
     "category": "Polos de Cuello",
@@ -128,8 +128,8 @@ const products = [
   },
   {
     "id": "SKU-008",
-    "name": "Polo Cuello Premium Plomo",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Plomo",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_gris.png",
     "category": "Polos de Cuello",
@@ -146,8 +146,8 @@ const products = [
   },
   {
     "id": "SKU-009",
-    "name": "Polo Cuello Premium Azul Oscuro",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Azul Oscuro",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos de Cuello",
@@ -164,8 +164,8 @@ const products = [
   },
   {
     "id": "SKU-010",
-    "name": "Polo Cuello Premium Rojo Oscuro",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Rojo Oscuro",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_rojo.png",
     "category": "Polos de Cuello",
@@ -182,8 +182,8 @@ const products = [
   },
   {
     "id": "SKU-011",
-    "name": "Polo Cuello Premium Negro",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Negro",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_estampado_negro.png",
     "category": "Polos de Cuello",
@@ -200,8 +200,8 @@ const products = [
   },
   {
     "id": "SKU-012",
-    "name": "Polo Cuello Premium Blanco",
-    "brand": "Skyline SAC de",
+    "name": "Polo Cuello Blanco",
+    "brand": "Skyline SAC",
     "price": 85,
     "image": "/images/polo_cuello_blanco.png",
     "category": "Polos de Cuello",
@@ -219,7 +219,7 @@ const products = [
   {
     "id": "SKU-013",
     "name": "Polo Clásico Básico Rojo",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_rojo.png",
     "category": "Polos Clásicos",
@@ -237,7 +237,7 @@ const products = [
   {
     "id": "SKU-014",
     "name": "Polo Clásico Básico Azul",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Clásicos",
@@ -255,7 +255,7 @@ const products = [
   {
     "id": "SKU-015",
     "name": "Polo Clásico Básico Verde",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_verde.png",
     "category": "Polos Clásicos",
@@ -273,7 +273,7 @@ const products = [
   {
     "id": "SKU-016",
     "name": "Polo Clásico Básico Amarillo",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Clásicos",
@@ -291,7 +291,7 @@ const products = [
   {
     "id": "SKU-017",
     "name": "Polo Clásico Básico Morado",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_morado.png",
     "category": "Polos Clásicos",
@@ -309,7 +309,7 @@ const products = [
   {
     "id": "SKU-018",
     "name": "Polo Clásico Básico Naranja",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_naranja.png",
     "category": "Polos Clásicos",
@@ -327,7 +327,7 @@ const products = [
   {
     "id": "SKU-019",
     "name": "Polo Clásico Básico Dorado",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Clásicos",
@@ -345,7 +345,7 @@ const products = [
   {
     "id": "SKU-020",
     "name": "Polo Clásico Básico Plomo",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_gris.png",
     "category": "Polos Clásicos",
@@ -363,7 +363,7 @@ const products = [
   {
     "id": "SKU-021",
     "name": "Polo Clásico Básico Azul Oscuro",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Clásicos",
@@ -381,7 +381,7 @@ const products = [
   {
     "id": "SKU-022",
     "name": "Polo Clásico Básico Rojo Oscuro",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_rojo.png",
     "category": "Polos Clásicos",
@@ -399,7 +399,7 @@ const products = [
   {
     "id": "SKU-023",
     "name": "Polo Clásico Básico Negro",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_estampado_negro.png",
     "category": "Polos Clásicos",
@@ -417,7 +417,7 @@ const products = [
   {
     "id": "SKU-024",
     "name": "Polo Clásico Básico Blanco",
-    "brand": "Skyline SAC Clásicos",
+    "brand": "Skyline SAC",
     "price": 30,
     "image": "/images/polo_blanco.png",
     "category": "Polos Clásicos",
@@ -435,7 +435,7 @@ const products = [
   {
     "id": "SKU-025",
     "name": "Polo Estampado Arte Urbano",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_rojo.png",
     "category": "Polos Estampados",
@@ -453,7 +453,7 @@ const products = [
   {
     "id": "SKU-026",
     "name": "Polo Estampado Líneas Geométricas",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Estampados",
@@ -471,7 +471,7 @@ const products = [
   {
     "id": "SKU-027",
     "name": "Polo Estampado Minimalismo",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_estampado_verde.png",
     "category": "Polos Estampados",
@@ -489,7 +489,7 @@ const products = [
   {
     "id": "SKU-028",
     "name": "Polo Estampado Tipografía Moderna",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Estampados",
@@ -507,7 +507,7 @@ const products = [
   {
     "id": "SKU-029",
     "name": "Polo Estampado Ilustración Abstracta",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_morado.png",
     "category": "Polos Estampados",
@@ -525,7 +525,7 @@ const products = [
   {
     "id": "SKU-030",
     "name": "Polo Estampado Patrón Vintage",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_naranja.png",
     "category": "Polos Estampados",
@@ -543,7 +543,7 @@ const products = [
   {
     "id": "SKU-031",
     "name": "Polo Estampado Arte Urbano",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Estampados",
@@ -561,7 +561,7 @@ const products = [
   {
     "id": "SKU-032",
     "name": "Polo Estampado Líneas Geométricas",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_gris.png",
     "category": "Polos Estampados",
@@ -579,7 +579,7 @@ const products = [
   {
     "id": "SKU-033",
     "name": "Polo Estampado Minimalismo",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Estampados",
@@ -597,7 +597,7 @@ const products = [
   {
     "id": "SKU-034",
     "name": "Polo Estampado Tipografía Moderna",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_rojo.png",
     "category": "Polos Estampados",
@@ -615,7 +615,7 @@ const products = [
   {
     "id": "SKU-035",
     "name": "Polo Estampado Ilustración Abstracta",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_estampado_negro.png",
     "category": "Polos Estampados",
@@ -633,7 +633,7 @@ const products = [
   {
     "id": "SKU-036",
     "name": "Polo Estampado Patrón Vintage",
-    "brand": "Skyline SAC Estampados",
+    "brand": "Skyline SAC",
     "price": 45,
     "image": "/images/polo_blanco.png",
     "category": "Polos Estampados",
@@ -651,7 +651,7 @@ const products = [
   {
     "id": "SKU-037",
     "name": "Polo Custom Edition Rojo",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_rojo.png",
     "category": "Polos Personalizados",
@@ -669,7 +669,7 @@ const products = [
   {
     "id": "SKU-038",
     "name": "Polo Custom Edition Azul",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Personalizados",
@@ -687,7 +687,7 @@ const products = [
   {
     "id": "SKU-039",
     "name": "Polo Custom Edition Verde",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_verde.png",
     "category": "Polos Personalizados",
@@ -705,7 +705,7 @@ const products = [
   {
     "id": "SKU-040",
     "name": "Polo Custom Edition Amarillo",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Personalizados",
@@ -723,7 +723,7 @@ const products = [
   {
     "id": "SKU-041",
     "name": "Polo Custom Edition Morado",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_morado.png",
     "category": "Polos Personalizados",
@@ -741,7 +741,7 @@ const products = [
   {
     "id": "SKU-042",
     "name": "Polo Custom Edition Naranja",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_naranja.png",
     "category": "Polos Personalizados",
@@ -759,7 +759,7 @@ const products = [
   {
     "id": "SKU-043",
     "name": "Polo Custom Edition Dorado",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_amarillo.png",
     "category": "Polos Personalizados",
@@ -777,7 +777,7 @@ const products = [
   {
     "id": "SKU-044",
     "name": "Polo Custom Edition Plomo",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_gris.png",
     "category": "Polos Personalizados",
@@ -795,7 +795,7 @@ const products = [
   {
     "id": "SKU-045",
     "name": "Polo Custom Edition Azul Oscuro",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_cuello_azul.png",
     "category": "Polos Personalizados",
@@ -813,7 +813,7 @@ const products = [
   {
     "id": "SKU-046",
     "name": "Polo Custom Edition Rojo Oscuro",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_rojo.png",
     "category": "Polos Personalizados",
@@ -831,7 +831,7 @@ const products = [
   {
     "id": "SKU-047",
     "name": "Polo Custom Edition Negro",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_estampado_negro.png",
     "category": "Polos Personalizados",
@@ -849,7 +849,7 @@ const products = [
   {
     "id": "SKU-048",
     "name": "Polo Custom Edition Blanco",
-    "brand": "Skyline SAC Personalizados",
+    "brand": "Skyline SAC",
     "price": 50,
     "image": "/images/polo_blanco.png",
     "category": "Polos Personalizados",
