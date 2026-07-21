@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo Premium - Polos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">PAUMYLOV <span class="logo-accent">PREMIUM</span></a>
+        <nav class="nav-links">
+          <a href="#" class="active">Colección Exclusiva</a>
+          <a href="#">Básicos</a>
+          <a href="#">Contacto</a>
+        </nav>
+        <div class="cart-icon" id="cart-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <aside class="cart-sidebar" id="cart-sidebar">
+      <div class="cart-header">
+        <h2>Tu Carrito</h2>
+        <button class="close-cart" id="close-cart">&times;</button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <!-- Cart items dynamically injected here -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total-price">S/ 0.00</span>
+        </div>
+        <button class="checkout-btn">Proceder al Pago</button>
+      </div>
+    </aside>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Elegancia en cada hilo</h1>
+        <p>Descubre nuestra nueva colección de polos. Diseño superior y máxima comodidad.</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="catalog-layout">
+      <!-- Sidebar Filters -->
+      <aside class="sidebar">
+        <h2 class="filter-title">Refinar Búsqueda</h2>
+        
+        <div class="filter-group">
+          <h3>Categoría</h3>
+          <label><input type="checkbox" value="basico" class="filter-checkbox" data-type="category"> Básicos</label>
+          <label><input type="checkbox" value="estampado" class="filter-checkbox" data-type="category"> Estampados</label>
+          <label><input type="checkbox" value="personalizado" class="filter-checkbox" data-type="category"> Personalizados</label>
+          <label><input type="checkbox" value="bordado" class="filter-checkbox" data-type="category"> Bordados</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Modelo</h3>
+          <label><input type="checkbox" value="cuello" class="filter-checkbox" data-type="model"> Con Cuello</label>
+          <label><input type="checkbox" value="sin-cuello" class="filter-checkbox" data-type="model"> Sin Cuello</label>
+          <label><input type="checkbox" value="princesa" class="filter-checkbox" data-type="model"> Corte Princesa</label>
+          <label><input type="checkbox" value="hombre" class="filter-checkbox" data-type="model"> Hombre Clásico</label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Talla</h3>
+          <div class="size-grid">
+            <button class="size-btn" data-size="XS">XS</button>
+            <button class="size-btn" data-size="S">S</button>
+            <button class="size-btn" data-size="M">M</button>
+            <button class="size-btn" data-size="L">L</button>
+            <button class="size-btn" data-size="XL">XL</button>
+            <button class="size-btn" data-size="XXL">XXL</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Color</h3>
+          <div class="color-grid">
+            <button class="color-btn" data-color="blanco" style="background-color: #ffffff; border: 1px solid #ddd;" title="Blanco"></button>
+            <button class="color-btn" data-color="negro" style="background-color: #000000;" title="Negro"></button>
+            <button class="color-btn" data-color="azul" style="background-color: #001F3F;" title="Azul Marino"></button>
+            <button class="color-btn" data-color="celeste" style="background-color: #87CEEB;" title="Celeste"></button>
+            <button class="color-btn" data-color="rojo" style="background-color: #8B0000;" title="Rojo"></button>
+            <button class="color-btn" data-color="verde" style="background-color: #228B22;" title="Verde"></button>
+            <button class="color-btn" data-color="amarillo" style="background-color: #FFD700;" title="Amarillo"></button>
+            <button class="color-btn" data-color="gris" style="background-color: #808080;" title="Gris"></button>
+            <button class="color-btn" data-color="naranja" style="background-color: #FF8C00;" title="Naranja"></button>
+            <button class="color-btn" data-color="morado" style="background-color: #4B0082;" title="Morado"></button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Product Grid -->
+      <section class="products-section">
+        <div class="products-header">
+          <h1 class="page-title">Catálogo Completo</h1>
+          <span class="product-count" id="product-count">Cargando...</span>
+        </div>
+        
+        <div class="active-filters" id="active-filters">
+          <!-- Active filter tags will appear here -->
+        </div>
+
+        <div class="product-grid" id="product-grid">
+          <!-- Products will be dynamically injected here -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h2>PAUMYLOV</h2>
+        <p>Calidad y elegancia que te definen.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Paumylov. Catálogo Premium.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
