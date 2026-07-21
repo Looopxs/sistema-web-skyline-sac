@@ -332,6 +332,33 @@ h1, h2, h3, .logo, .product-name {
   animation: fadeIn 0.3s ease-in-out;
 }
 
+/* Sticky Images for Scroll Overlap */
+.sticky-image-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding-bottom: 2rem;
+}
+
+.sticky-img {
+  position: sticky;
+  top: 100px;
+  height: 380px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  box-shadow: 0 -5px 25px rgba(0,0,0,0.15);
+  border: 5px solid var(--white);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: 10;
+}
+
+.sticky-img:hover {
+  transform: scale(1.02);
+}
+
 /* Custom Checkboxes */
 .custom-checkbox-container {
   display: block;

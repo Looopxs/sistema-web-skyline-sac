@@ -1,92 +1,92 @@
 // Product Data (18 models meticulously mapped to their visual representation)
 const products = [
   {
-    id: 1, name: 'Polo Básico Slim Fit Blanco', brand: 'Skyline SAC Essentials', price: 29.90,
+    id: 1, name: 'Polo Básico Slim Fit Blanco', brand: 'Skyline SAC Essentials', price: 30.00,
     image: '/images/polo_blanco.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'blanco', colorHex: '#ffffff', featured: false
   },
   {
-    id: 2, name: 'Polo Estampado Geométrico Negro', brand: 'Skyline SAC Design', price: 45.90,
+    id: 2, name: 'Polo Estampado Geométrico Negro', brand: 'Skyline SAC Design', price: 45.00,
     image: '/images/polo_estampado_negro.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
     colorName: 'negro', colorHex: '#000000', featured: true
   },
   {
-    id: 3, name: 'Polo Piqué Elegante Azul', brand: 'Skyline SAC Premium', price: 69.90,
+    id: 3, name: 'Polo Piqué Elegante Azul', brand: 'Skyline SAC Premium', price: 30.00,
     image: '/images/polo_cuello_azul.png', categories: ['basico', 'personalizado'], models: ['hombre', 'cuello'], sizes: ['XS', 'S', 'M', 'L', 'XL'],
     colorName: 'azul', colorHex: '#001F3F', featured: true
   },
   {
-    id: 4, name: 'Polo Corte Princesa Celeste', brand: 'Skyline SAC Woman', price: 35.90,
+    id: 4, name: 'Polo Corte Princesa Celeste', brand: 'Skyline SAC Woman', price: 30.00,
     image: '/images/polo_corte_princesa.png', categories: ['basico'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M', 'L'],
     colorName: 'celeste', colorHex: '#87CEEB', featured: false
   },
   {
-    id: 5, name: 'Polo Básico Rojo Pasión', brand: 'Skyline SAC Essentials', price: 32.90,
+    id: 5, name: 'Polo Básico Rojo Pasión', brand: 'Skyline SAC Essentials', price: 30.00,
     image: '/images/polo_rojo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'rojo', colorHex: '#8B0000', featured: false
   },
   {
-    id: 6, name: 'Polo Forest Verde Clásico', brand: 'Skyline SAC Nature', price: 39.90,
+    id: 6, name: 'Polo Forest Verde Clásico', brand: 'Skyline SAC Nature', price: 30.00,
     image: '/images/polo_verde.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'verde', colorHex: '#228B22', featured: false
   },
   {
-    id: 7, name: 'Polo Verano Amarillo', brand: 'Skyline SAC Active', price: 34.90,
+    id: 7, name: 'Polo Verano Amarillo', brand: 'Skyline SAC Active', price: 30.00,
     image: '/images/polo_amarillo.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'amarillo', colorHex: '#FFD700', featured: false
   },
   {
-    id: 8, name: 'Polo Urbano Gris', brand: 'Skyline SAC Street', price: 42.90,
+    id: 8, name: 'Polo Urbano Gris', brand: 'Skyline SAC Street', price: 30.00,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL', 'XXL'],
     colorName: 'gris', colorHex: '#808080', featured: false
   },
   {
-    id: 9, name: 'Polo Sunset Naranja', brand: 'Skyline SAC Active', price: 36.90,
+    id: 9, name: 'Polo Sunset Naranja', brand: 'Skyline SAC Active', price: 30.00,
     image: '/images/polo_naranja.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'naranja', colorHex: '#FF8C00', featured: false
   },
   {
-    id: 10, name: 'Polo Royal Morado', brand: 'Skyline SAC Premium', price: 55.90,
+    id: 10, name: 'Polo Royal Morado', brand: 'Skyline SAC Premium', price: 30.00,
     image: '/images/polo_morado.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'morado', colorHex: '#4B0082', featured: true
   },
   {
-    id: 11, name: 'Polo Personalizado Negro', brand: 'Skyline SAC Custom', price: 49.90,
+    id: 11, name: 'Polo Personalizado Negro', brand: 'Skyline SAC Custom', price: 50.00,
     image: '/images/polo_estampado_negro.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'negro', colorHex: '#000000', featured: false
   },
   {
-    id: 12, name: 'Polo Cuello Piqué Blanco', brand: 'Skyline SAC Premium', price: 65.90,
+    id: 12, name: 'Polo Cuello Piqué Blanco', brand: 'Skyline SAC Premium', price: 30.00,
     image: '/images/polo_cuello_blanco.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'blanco', colorHex: '#ffffff', featured: true
   },
   {
-    id: 13, name: 'Polo Estampado Princesa', brand: 'Skyline SAC Woman', price: 45.90,
+    id: 13, name: 'Polo Estampado Princesa', brand: 'Skyline SAC Woman', price: 45.00,
     image: '/images/polo_corte_princesa.png', categories: ['estampado'], models: ['princesa', 'sin-cuello'], sizes: ['XS', 'S', 'M'],
     colorName: 'celeste', colorHex: '#87CEEB', featured: false
   },
   {
-    id: 14, name: 'Polo Casual Gris Melange', brand: 'Skyline SAC Essentials', price: 33.90,
+    id: 14, name: 'Polo Casual Gris Melange', brand: 'Skyline SAC Essentials', price: 30.00,
     image: '/images/polo_gris.png', categories: ['basico'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L', 'XL', 'XXL'],
     colorName: 'gris', colorHex: '#808080', featured: false
   },
   {
-    id: 15, name: 'Polo Cuello Ejecutivo Rojo', brand: 'Skyline SAC Premium', price: 69.90,
+    id: 15, name: 'Polo Cuello Ejecutivo Rojo', brand: 'Skyline SAC Premium', price: 30.00,
     image: '/images/polo_cuello_rojo.png', categories: ['basico'], models: ['hombre', 'cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'rojo', colorHex: '#8B0000', featured: true
   },
   {
-    id: 16, name: 'Polo Estampado Urbano Verde', brand: 'Skyline SAC Design', price: 48.90,
+    id: 16, name: 'Polo Estampado Urbano Verde', brand: 'Skyline SAC Design', price: 45.00,
     image: '/images/polo_estampado_verde.png', categories: ['estampado'], models: ['hombre', 'sin-cuello'], sizes: ['S', 'M', 'L'],
     colorName: 'verde', colorHex: '#228B22', featured: false
   },
   {
-    id: 17, name: 'Polo Personalizado Amarillo', brand: 'Skyline SAC Custom', price: 52.90,
+    id: 17, name: 'Polo Personalizado Amarillo', brand: 'Skyline SAC Custom', price: 50.00,
     image: '/images/polo_amarillo.png', categories: ['personalizado'], models: ['hombre', 'sin-cuello'], sizes: ['M', 'L', 'XL'],
     colorName: 'amarillo', colorHex: '#FFD700', featured: false
   },
   {
-    id: 18, name: 'Polo Bordado Premium', brand: 'Skyline SAC Premium', price: 62.90,
+    id: 18, name: 'Polo Bordado Premium', brand: 'Skyline SAC Premium', price: 55.00,
     image: '/images/polo_cuello_azul.png', categories: ['bordado'], models: ['hombre', 'cuello'], sizes: ['S', 'M', 'L', 'XL'],
     colorName: 'azul', colorHex: '#001F3F', featured: true
   }
@@ -228,6 +228,9 @@ function createProductCardHTML(product, index) {
     <div style="width:12px; height:12px; border-radius:50%; background-color:${product.colorHex}; border:1px solid rgba(0,0,0,0.1);" title="${product.colorName}"></div>
   `;
 
+  // Determine if there's a base price notation for custom polos
+  const pricePrefix = product.categories.includes('personalizado') ? 'Desde ' : '';
+
   card.innerHTML = `
     <div class="product-image-container">
       <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy">
@@ -238,7 +241,10 @@ function createProductCardHTML(product, index) {
     <div class="product-info">
       <span class="product-brand">${product.brand}</span>
       <h3 class="product-name">${product.name}</h3>
-      <div class="product-price">S/ ${product.price.toFixed(2)}</div>
+      <div class="product-price">
+        ${pricePrefix}S/ ${product.price.toFixed(2)} 
+        <span style="color:var(--text-light); font-size:0.85rem; font-weight:400; font-family:'Inter', sans-serif;">| $ ${(product.price / 3.80).toFixed(2)}</span>
+      </div>
       <div class="product-colors" style="display:flex; justify-content:center; gap:0.5rem; margin-top:0.5rem;">
         ${colorsHtml}
       </div>
@@ -360,7 +366,7 @@ function updateCartUI() {
   
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = '<p style="text-align:center; color:var(--text-light); margin-top:2rem;">Tu carrito está vacío</p>';
-    cartTotalPrice.textContent = 'S/ 0.00';
+    cartTotalPrice.innerHTML = '<span>Total:</span> <span>S/ 0.00 | $ 0.00</span>';
     return;
   }
 
@@ -378,7 +384,7 @@ function updateCartUI() {
             <div style="font-size: 0.8rem; color: var(--text-light); font-family:'Inter', sans-serif;">Talla: ${item.sizes[0]} | Color: ${item.colorName}</div>
           </div>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
-            <div style="font-weight:700; color:var(--accent-color);">S/ ${item.price.toFixed(2)}</div>
+            <div style="font-weight:700; color:var(--accent-color);">S/ ${item.price.toFixed(2)} <span style="font-size:0.8rem; font-weight:400; color:var(--text-light)">| $ ${(item.price / 3.80).toFixed(2)}</span></div>
             <span style="color:#ff3333; font-size:0.8rem; cursor:pointer; text-decoration:underline;" onclick="window.removeCartItem(${item.cartId})">Quitar</span>
           </div>
         </div>
@@ -387,7 +393,7 @@ function updateCartUI() {
   });
 
   cartItemsContainer.innerHTML = html;
-  cartTotalPrice.textContent = `S/ ${total.toFixed(2)}`;
+  cartTotalPrice.innerHTML = `<span>Total:</span> <span style="text-align:right;">S/ ${total.toFixed(2)}<br><span style="font-size:0.85rem; color:var(--text-light); font-weight:400;">$ ${(total / 3.8).toFixed(2)}</span></span>`;
 }
 
 window.removeCartItem = removeFromCart;
