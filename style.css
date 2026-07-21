@@ -277,6 +277,8 @@ h1, h2, h3, .logo, .product-name {
 .sidebar {
   width: 260px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-header {
@@ -341,8 +343,9 @@ h1, h2, h3, .logo, .product-name {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 150px; /* Space out the images so they scroll independently before sticking */
+  gap: 200px; /* Space out the images so they scroll independently before sticking */
   padding-bottom: 2rem;
+  flex-grow: 1; /* Stretch to the bottom of the sidebar to allow proper sticky stacking */
 }
 
 .sticky-img {
